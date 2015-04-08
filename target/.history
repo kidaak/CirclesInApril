@@ -1,0 +1,4 @@
+run
+gen-idea sbt-classifiers
+pdate-classifiers
+gen-idea sbt-classifiers

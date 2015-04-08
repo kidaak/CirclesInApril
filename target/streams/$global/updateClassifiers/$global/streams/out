@@ -1,0 +1,263 @@
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#circlesinapril$sources_javadoc_2.11;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28c149[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving se.fishtank#css-selectors-scala_2.9.1;0.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a3abb51[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: se.fishtank#css-selectors-scala_2.9.1;0.1.0[0m
+[0m[[0mdebug[0m] [0m	found se.fishtank#css-selectors-scala_2.9.1;0.1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->se.fishtank#css-selectors-scala_2.9.1;0.1.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.6 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-reflect;2.11.6[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
+[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/ben/.ivy2/local/se.fishtank/css-selectors-scala_2.9.1/0.1.0/srcs/css-selectors-scala_2.9.1-sources.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] se.fishtank#css-selectors-scala_2.9.1;0.1.0!css-selectors-scala_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /home/ben/.ivy2/local/se.fishtank/css-selectors-scala_2.9.1/0.1.0/docs/css-selectors-scala_2.9.1-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-sources.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-sources.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-sources.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-sources.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-sources.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] se.fishtank#css-selectors-scala_2.9.1;0.1.0!css-selectors-scala_2.9.1.jar(src) (1789ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-javadoc.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-javadoc.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-javadoc.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/se/fishtank/css-selectors-scala_2.9.1/0.1.0/css-selectors-scala_2.9.1-0.1.0-javadoc.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] se.fishtank#css-selectors-scala_2.9.1;0.1.0!css-selectors-scala_2.9.1.jar(doc) (2866ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 665ms :: artifacts dl 4701ms[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 compile produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 runtime produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 test produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 provided produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 optional produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 compile-internal produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 runtime-internal produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 test-internal produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 plugin produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 sources produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 docs produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 pom produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 scala-tool produced in /home/ben/Programming/Scala/workspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (665ms resolve - 4701ms download)[0m
