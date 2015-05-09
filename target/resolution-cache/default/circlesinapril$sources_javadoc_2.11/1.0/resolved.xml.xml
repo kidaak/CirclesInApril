@@ -4,7 +4,7 @@
 		module="circlesinapril$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20150407204703"
+		publication="20150421214055"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -28,9 +28,17 @@
 			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="scala-library" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="se.fishtank" name="css-selectors-scala_2.9.1" rev="0.1.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="css-selectors-scala_2.9.1" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="css-selectors-scala_2.9.1" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<dependency org="org.jsoup" name="jsoup" rev="1.7.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="jsoup" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="jsoup" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="io.reactivex" name="rxscala_2.11" rev="0.24.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="rxscala_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="rxscala_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="io.reactivex" name="rxjava" rev="1.0.8" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="rxjava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="rxjava" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.6" transitive="false" conf="scala-tool->default(compile)">
 			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>

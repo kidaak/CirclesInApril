@@ -9,8 +9,10 @@ scalaVersion := "2.11.6"
 
 libraryDependencies += "org.jsoup" % "jsoup" % "1.7.2"
 
-//libraryDependencies += "org.apache.derby" % "derby" % "10.4.1.3"
+libraryDependencies += "io.reactivex" % "rxscala_2.11" % "0.24.1"
 
 //unmanagedBase <<= baseDirectory { base => base / "lib" }
+
+mainClass := Some("GeoPicassoRx")
 
     

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/circlesinapril.iml" filepath="$PROJECT_DIR$/.idea/modules/circlesinapril.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/circlesinapril-build.iml" filepath="$PROJECT_DIR$/.idea/modules/circlesinapril-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/CirclesinApril.iml" filepath="$PROJECT_DIR$/.idea_modules/CirclesinApril.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/CirclesinApril-build.iml" filepath="$PROJECT_DIR$/.idea_modules/CirclesinApril-build.iml" />
     </modules>
   </component>
 </project>

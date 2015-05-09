@@ -1,0 +1,7 @@
+<svg>
+ <circle cx="0.0" cy="50.0" r="12.5" opacity="0.5" z-index="9999999"></circle>
+ <circle cx="12.5" cy="50.0" r="12.5" opacity="0.5" z-index="9999998"></circle>
+ <circle cx="12.5" cy="50.0" r="12.5" opacity="0.5" z-index="9999997"></circle>
+ <circle cx="12.5" cy="50.0" r="12.5" opacity="0.5" z-index="9999996"></circle>
+ <circle cx="12.5" cy="50.0" r="12.5" opacity="0.5" z-index="9999995"></circle>
+</svg>

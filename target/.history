@@ -2,3 +2,9 @@ run
 gen-idea sbt-classifiers
 pdate-classifiers
 gen-idea sbt-classifiers
+gen-idea
+run
+run-main GeoPicassoRx
+clear
+run-main GeoPicassoRx
+run

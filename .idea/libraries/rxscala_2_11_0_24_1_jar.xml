@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rxscala_2.11-0.24.1.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/rxscala_2.11-0.24.1.jar!/"/>
+    </CLASSES>
+    <JAVADOC> </JAVADOC>
+    <SOURCES> </SOURCES>
+  </library>
+</component>
