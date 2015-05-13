@@ -4,7 +4,7 @@
 		module="circlesinapril-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150426134509"
+		publication="20150513124240"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>

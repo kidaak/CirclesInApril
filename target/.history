@@ -8,3 +8,7 @@ run-main GeoPicassoRx
 clear
 run-main GeoPicassoRx
 run
+sbt
+run
+show discoveredMainClasses 
+run

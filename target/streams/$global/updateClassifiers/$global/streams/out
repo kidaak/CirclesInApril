@@ -1,409 +1,394 @@
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#circlesinapril$sources_javadoc_2.11;1.0[0m
-[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
-[0m[[0mdebug[0m] [0m	validate = true[0m
-[0m[[0mdebug[0m] [0m	refresh = false[0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49c67ca9[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.jsoup#jsoup;1.7.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bb7924c[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jsoup#jsoup;1.7.2[0m
-[0m[[0mdebug[0m] [0m	found org.jsoup#jsoup;1.7.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving io.reactivex#rxscala_2.11;0.24.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28bda2d3[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.reactivex#rxscala_2.11;0.24.1[0m
-[0m[[0mdebug[0m] [0m	found io.reactivex#rxscala_2.11;0.24.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving io.reactivex#rxjava;1.0.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67c2aad[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.reactivex#rxjava;1.0.8[0m
-[0m[[0mdebug[0m] [0m	found io.reactivex#rxjava;1.0.8 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->master][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->master][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [provided][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [optional][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile-internal->master][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime-internal->master][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test-internal->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test-internal->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test-internal->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test-internal->master][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [plugin][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [sources][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [docs][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [pom][0m
-[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#circlesinapril$sources_javadoc_2.11;1.0 [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.6 {scala-tool=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-reflect;2.11.6[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {scala-tool=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {scala-tool=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving jline#jline;2.12.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: jline#jline;2.12.1[0m
-[0m[[0mdebug[0m] [0m	found jline#jline;2.12.1 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
-[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jsoup#jsoup;1.7.2!jsoup.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jsoup#jsoup;1.7.2!jsoup.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jsoup#jsoup;1.7.2!jsoup.jar(doc)[0m
-[0m[[0mdebug[0m] [0m		tried /home/ben/.ivy2/local/io.reactivex/rxscala_2.11/0.24.1/srcs/rxscala_2.11-sources.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/ben/.ivy2/local/io.reactivex/rxscala_2.11/0.24.1/docs/rxscala_2.11-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.reactivex#rxscala_2.11;0.24.1!rxscala_2.11.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-sources.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-sources.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-sources.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-sources.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-sources.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.reactivex#rxscala_2.11;0.24.1!rxscala_2.11.jar(src) (403ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-javadoc.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-javadoc.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-javadoc.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/reactivex/rxscala_2.11/0.24.1/rxscala_2.11-0.24.1-javadoc.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.reactivex#rxscala_2.11;0.24.1!rxscala_2.11.jar(doc) (5476ms)[0m
-[0m[[0mdebug[0m] [0m		tried /home/ben/.ivy2/local/io.reactivex/rxjava/1.0.8/srcs/rxjava-sources.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/ben/.ivy2/local/io.reactivex/rxjava/1.0.8/docs/rxjava-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.reactivex#rxjava;1.0.8!rxjava.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-sources.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-sources.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-sources.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-sources.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-sources.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.reactivex#rxjava;1.0.8!rxjava.jar(src) (3163ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-javadoc.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-javadoc.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-javadoc.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.8/rxjava-1.0.8-javadoc.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.reactivex#rxjava;1.0.8!rxjava.jar(doc) (3997ms)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(doc)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 495ms :: artifacts dl 13108ms[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 compile produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 runtime produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 test produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 provided produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 optional produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 compile-internal produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 runtime-internal produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 test-internal produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 plugin produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 sources produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 docs produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 pom produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#circlesinapril$sources_javadoc_2.11;1.0 scala-tool produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/default-circlesinapril$sources_javadoc_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (495ms resolve - 13108ms download)[0m
+[debug] :: resolving dependencies :: circlesinapril#circlesinapril$sources_javadoc_2.11;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f1589d6
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
+[debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.6
+[debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)]
+[info] Resolving org.jsoup#jsoup;1.7.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e60d735
+[debug] sbt-chain: module revision found in cache: org.jsoup#jsoup;1.7.2
+[debug] 	local: revision in cache: org.jsoup#jsoup;1.7.2
+[debug] 	found org.jsoup#jsoup;1.7.2 in sbt-chain
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)]
+[info] Resolving io.reactivex#rxscala_2.11;0.24.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29ee6f9e
+[debug] sbt-chain: module revision found in cache: io.reactivex#rxscala_2.11;0.24.1
+[debug] 	local: revision in cache: io.reactivex#rxscala_2.11;0.24.1
+[debug] 	found io.reactivex#rxscala_2.11;0.24.1 in sbt-chain
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)]
+[info] Resolving io.reactivex#rxjava;1.0.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@635b157b
+[debug] sbt-chain: module revision found in cache: io.reactivex#rxjava;1.0.8
+[debug] 	local: revision in cache: io.reactivex#rxjava;1.0.8
+[debug] 	found io.reactivex#rxjava;1.0.8 in sbt-chain
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [runtime]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [test]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [runtime]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [compile-internal]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [optional]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [provided]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [runtime-internal]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [runtime]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->master]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [optional]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [test-internal]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [test]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [runtime]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [compile->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [runtime->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test->master]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [optional]
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [provided]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [test-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.jsoup#jsoup;1.7.2 [test-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxscala_2.11;0.24.1 [test-internal->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test-internal->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test-internal->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test-internal->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->io.reactivex#rxjava;1.0.8 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 [scala-tool]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->default(compile)]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-library;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.6 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
+[debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.6
+[debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-compiler;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.6 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
+[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.6
+[debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang#scala-reflect;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
+[debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
+[debug] 	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->master]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->default(compile)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	local: revision in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->runtime]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->compile]
+[debug] == resolving dependencies circlesinapril#circlesinapril$sources_javadoc_2.11;1.0->jline#jline;2.12.1 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar
+[debug] 	[NOT REQUIRED] org.jsoup#jsoup;1.7.2!jsoup.jar
+[debug] 	[NOT REQUIRED] org.jsoup#jsoup;1.7.2!jsoup.jar(src)
+[debug] 	[NOT REQUIRED] org.jsoup#jsoup;1.7.2!jsoup.jar(doc)
+[debug] 	[NOT REQUIRED] io.reactivex#rxscala_2.11;0.24.1!rxscala_2.11.jar(src)
+[debug] 	[NOT REQUIRED] io.reactivex#rxscala_2.11;0.24.1!rxscala_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] io.reactivex#rxscala_2.11;0.24.1!rxscala_2.11.jar
+[debug] 	[NOT REQUIRED] io.reactivex#rxjava;1.0.8!rxjava.jar(src)
+[debug] 	[NOT REQUIRED] io.reactivex#rxjava;1.0.8!rxjava.jar(doc)
+[debug] 	[NOT REQUIRED] io.reactivex#rxjava;1.0.8!rxjava.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(doc)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(doc)
+[debug] :: resolution report :: resolve 2216ms :: artifacts dl 581ms
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 compile produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-compile.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 runtime produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-runtime.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 test produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-test.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 provided produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-provided.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 optional produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-optional.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 compile-internal produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-compile-internal.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 runtime-internal produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-runtime-internal.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 test-internal produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-test-internal.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 plugin produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-plugin.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 sources produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-sources.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 docs produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-docs.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 pom produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-pom.xml
+[debug] 	report for circlesinapril#circlesinapril$sources_javadoc_2.11;1.0 scala-tool produced in /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/resolution-cache/reports/circlesinapril-circlesinapril$sources_javadoc_2.11-scala-tool.xml
+[debug] 	resolve done (2216ms resolve - 581ms download)

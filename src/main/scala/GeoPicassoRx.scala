@@ -21,12 +21,36 @@ class GeoPicassoRx() {
   case class CircleStyle(fill: String, stroke: String, opacity: Float)
   case class CircleModel(index: Int, cx: Float, cy: Float, r: Float, scaleFactor: Int)
 
+  object circleTransformer {
+
+    var cxPlus: Float = 0
+    var cyPlus: Float = 0
+    var scalar: Float = 0
+
+    def cxTransform(cx: Float): Float  = {
+      return scalar * cx + cxPlus
+    }
+
+    def cyTransform(cy: Float): Float  = {
+      return scalar * cy + cyPlus
+    }
+
+    def rTransform(r: Float): Float  = {
+      return scalar * r
+    }
+
+    def transform(whichCircle: CircleModel): CircleModel = {
+      return new CircleModel(whichCircle.index, this.cxTransform(whichCircle.cx), this.cyTransform(whichCircle.cy),this.rTransform(whichCircle.r), whichCircle.scaleFactor)
+    }
+
+  }
+
 
 //  var numOfCirclesInDiameter = 100
-  var numOfCirclesInDiameter = 4
-  var largestCircleWidth = 100
+  var numOfCirclesInDiameter = 1000
   var docFilename = "render"
   var baseDocFilename = "baseTemplate.svg"
+  var scaleFactor = 1
 
   var doc: Document = null
   var circlesContainer: Element = null
@@ -37,11 +61,13 @@ class GeoPicassoRx() {
 //  var strokeColors = Array("black")
   var strokeColors = Array()
 
-  var startingCircle = new CircleModel(0,
+  val startingCircle = new CircleModel(0,
     0.5f / numOfCirclesInDiameter,
     0.5f,
     0.5f / numOfCirclesInDiameter,
     1)
+
+  val lastCircle = new CircleModel(-1, 0.5f, 0.5f, 0.5f, -1)
 
 
   val circleStream = Observable.apply[CircleModel]((observer: Observer[CircleModel]) => {
@@ -57,6 +83,7 @@ class GeoPicassoRx() {
 
 
   val mainStream = circleStream
+    .map[CircleModel](this.circleTransformed(_))
     .zip[CircleStyle](circleStream.map[Int]((whichCircle: CircleModel) => whichCircle.index).map[CircleStyle](this.styleByIndex))
     .map[Element](this.svgByCircleAndStyle)
     .doOnSubscribe(this.createDoc)
@@ -89,16 +116,9 @@ class GeoPicassoRx() {
   }
 
 
-  """
   def circleTransformed(whichCircle: CircleModel): CircleModel = {
-    cxTransformed = 0.5f * whichCircle.
-    return new CircleModel(whichCircle.index,
-      this.transformInfo.cxFactor * whichCircle.cx,
-      this.transformInfo.cyFactor * whichCircle.cy,
-      this.transformInfo.rFactor * whichCircle.r, whichCircle.scaleFactor)
+    return this.circleTransformer.transform(whichCircle)
   }
-  """
-
 
   /**
    * Return a circle style according to a given index
@@ -177,18 +197,25 @@ class GeoPicassoRx() {
 
   /**
    * Create our svg object and also generate our transform info from the doc we've decided to read
+   * By generate transform info, I mean create something like a mapping from our unit space to our desired space
    */
   def createDoc(): Unit = {
     val baseDoc = scala.io.Source.fromFile(this.baseDocFilename).mkString
     this.doc = Jsoup.parse(baseDoc, "", Parser.xmlParser())
-//    this.circlesContainer = this.doc.select("gpPlacement").get(0).replaceWith(this.doc.createElement("g"))
     this.circlesContainer = this.doc.createElement("g")
     val basisObject = this.doc.select("#gpPlacement").get(0)
-    val startingCx = basisObject.attr("sodipodi:cx").toFloat / 0.5f / this.numOfCirclesInDiameter
-    val startingCy = basisObject.attr("sodipodi:cy").toFloat
-    val startingR = basisObject.attr("sodipodi:rx").toFloat / 0.5f / this.numOfCirclesInDiameter
-//    this.startingCircle  = new CircleModel(0, startingCx, startingCy, startingR, 1)
-    basisObject.replaceWith(this.circlesContainer)
+    // one value of our desired mapping
+    val basisCx = basisObject.attr("sodipodi:cx").toFloat
+    val basisCy = basisObject.attr("sodipodi:cy").toFloat
+    val basisR = basisObject.attr("sodipodi:rx").toFloat
+
+    val figuredScalar = basisR / this.lastCircle.r
+    this.circleTransformer.scalar = figuredScalar
+    this.circleTransformer.cxPlus = basisCx - (this.lastCircle.cx * figuredScalar)
+    this.circleTransformer.cyPlus = basisCy - (this.lastCircle.cy * figuredScalar)
+
+//    this.doc.select("svg").first().appendChild(this.circlesContainer)
+    this.doc.select("#gpPlacement").first().replaceWith(this.circlesContainer)
   }
 
 }

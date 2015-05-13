@@ -11,8 +11,6 @@ libraryDependencies += "org.jsoup" % "jsoup" % "1.7.2"
 
 libraryDependencies += "io.reactivex" % "rxscala_2.11" % "0.24.1"
 
-//unmanagedBase <<= baseDirectory { base => base / "lib" }
-
-mainClass := Some("GeoPicassoRx")
+mainClass in Compile := Some("GeoPicassoRx")
 
     
