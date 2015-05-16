@@ -11,6 +11,12 @@ libraryDependencies += "org.jsoup" % "jsoup" % "1.7.2"
 
 libraryDependencies += "io.reactivex" % "rxscala_2.11" % "0.24.1"
 
+libraryDependencies += "org.apache.xmlgraphics" % "batik-svggen" % "1.7"
+
+libraryDependencies += "org.apache.xmlgraphics" % "batik-transcoder" % "1.7"
+
+libraryDependencies += "org.apache.xmlgraphics" % "batik-codec" % "1.7"
+
 mainClass in Compile := Some("GeoPicassoRx")
 
     
