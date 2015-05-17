@@ -17,17 +17,17 @@ import org.apache.batik.transcoder
  *
  * Something like
  *   countdown (numberOfCircles) -> map (generateCircle) -> map (svgElement) -> do (appendDoc)
+ *
  */
 
 class GeoPicassoRx() {
 
   // Our model classes
 
-  case class CircleStyle(fill: String, stroke: String, opacity: Float)
+  case class CircleStyle(fill: FillModel, stroke: StrokeModel)
   case class CircleModel(index: Int, cx: Float, cy: Float, r: Float, scaleFactor: Int)
-  case class CircleStyle(color: String, opacity: Float)
-  case class FillStyle(override val color: String, override val opacity: Float) extends CircleStyle(color, opacity)
-  case class StrokeStyle(override val color: String, override val opacity: Float, strikeWidth: Float) extends CircleStyle(color, opacity)
+  case class FillModel(color: String, opacity: Float)
+  case class StrokeModel(color: String, opacity: Float, strokeWidth: Float)
 
   object circleTransformer {
 
@@ -57,13 +57,14 @@ class GeoPicassoRx() {
   var numOfCirclesInDiameter = 1000
 //  var numOfCirclesInDiameter = 10
   var docFilename = "render"
+  var docTag = "5"
   var baseDocFilename = "baseTemplate.svg"
 
   var doc: Document = null
   var circlesContainer: Element = null
 
-  var fillStyles: List[FillStyle] = null
-  var strokeStyles: List[StrokeStyle] = null
+  var fillModels: List[FillModel] = null
+  var strokeModels: List[StrokeModel] = null
 
   var startingCircle: CircleModel = null
   var lastCircle: CircleModel = null
@@ -123,17 +124,17 @@ class GeoPicassoRx() {
    * Return a circle style according to a given index
    */
   def styleByIndex(whichIndex: Int): CircleStyle = {
-    var fillColor: String = null
-    if (fillColors.length > 0) {
-      val fillIndex = whichIndex % this.fillColors.length
-      fillColor = this.fillColors(fillIndex)
+    var fillModel: FillModel = null
+    if (fillModels.length > 0) {
+      val fillIndex = whichIndex % this.fillModels.length
+      fillModel = this.fillModels(fillIndex)
     }
-    var strokeColor: String = null
-    if (strokeColors.length > 0) {
-      val strokeIndex = whichIndex % this.strokeColors.length
-      strokeColor = this.strokeColors(strokeIndex)
+    var strokeModel: StrokeModel = null
+    if (strokeModels.length > 0) {
+      val strokeIndex = whichIndex % this.strokeModels.length
+      strokeModel = this.strokeModels(strokeIndex)
     }
-    return new CircleStyle(fillColor, strokeColor, 0.5f)
+    return new CircleStyle(fillModel, strokeModel)
   }
 
   /**
@@ -152,14 +153,16 @@ class GeoPicassoRx() {
     svg.attr("cx", whichCircle.cx.toString())
     svg.attr("cy", whichCircle.cy.toString())
     svg.attr("r", whichCircle.r.toString())
-    svg.attr("opacity", whichStyle.opacity.toString)
-    if (whichStyle.fill != null)
-      svg.attr("fill", whichStyle.fill)
+    if (whichStyle.fill != null) {
+      svg.attr("fill", whichStyle.fill.color)
+      svg.attr("fill-opacity", whichStyle.fill.opacity.toString)
+    }
     else
       svg.attr("fill", "none")
     if (whichStyle.stroke != null) {
-      svg.attr("stroke", whichStyle.stroke)
-      svg.attr("stroke-width", "1")
+      svg.attr("stroke", whichStyle.stroke.color)
+      svg.attr("stroke-opacity", whichStyle.stroke.opacity.toString)
+      svg.attr("stroke-width", whichStyle.stroke.strokeWidth.toString)
     }
     svg.attr("z-index", (9999999 - whichCircle.index).toString())
 //    svg.attr("z-index", (whichCircle.index).toString())
@@ -188,7 +191,7 @@ class GeoPicassoRx() {
       return currentMinuteAsString
     }
 //    val wholeFilename = "%s%s.svg".format(this.docFilename, aUniqueTag())
-    val wholeFilename = "%s%s.svg".format(this.docFilename, "3")
+    val wholeFilename = "%s%s.svg".format(this.docFilename, this.docTag)
     val savedDoc = new PrintWriter(wholeFilename)
     savedDoc.write(this.doc.toString())
     savedDoc.close()
@@ -197,7 +200,7 @@ class GeoPicassoRx() {
   def savePng(): Unit = {
     val pngConverter = new PNGTranscoder()
     val svgInput: TranscoderInput = new TranscoderInput(new ByteArrayInputStream(this.doc.toString.getBytes()))
-    val svgOutFile = new FileOutputStream("%s%s.png".format(this.docFilename, "3"))
+    val svgOutFile = new FileOutputStream("%s%s.png".format(this.docFilename, this.docTag))
     val svgOut= new TranscoderOutput(svgOutFile)
     pngConverter.transcode(svgInput, svgOut)
     svgOutFile.flush()
@@ -221,6 +224,11 @@ class GeoPicassoRx() {
       return basisObject
     }
 
+    def grabNumOfCirclesInDiameter() = {
+      this.numOfCirclesInDiameter = Integer.valueOf(this.doc.select(".nCount").first().select("tspan").text())
+      this.doc.select(".nCount").remove()
+    }
+
     def initTransformer(fromBasisObject: Element) = {
       val basisCx = if (fromBasisObject.hasAttr("sodipodi:cx")) fromBasisObject.attr("sodipodi:cx").toFloat else fromBasisObject.attr("cx").toFloat
       val basisCy = if (fromBasisObject.hasAttr("sodipodi:cy")) fromBasisObject.attr("sodipodi:cy").toFloat else fromBasisObject.attr("cy").toFloat
@@ -234,32 +242,47 @@ class GeoPicassoRx() {
     }
 
     def initStyles() = {
-      def grabStyle[T](fromElem: Element, whichStyle: String): T = {
+      def grabStyle(fromElem: Element, whichStyle: String): String = {
         val styleAttr = fromElem.attr("style")
-        val styleReg = new Regex(s".*$whichStyle:(.*);.*", "whichStyle")
+        if (styleAttr.substring(0, 1).equals("o")) {
+          val debugHere = true
+          println(debugHere)
+        }
+        println(styleAttr)
+        val styleReg = new Regex(s".*\\b(?<!fill-)$whichStyle\\b:(.*?)(;|$$).*", whichStyle)
         val styleVal = styleReg.findFirstMatchIn(styleAttr).get.group(whichStyle)
-        return styleVal.asInstanceOf[T]
+        return styleVal
       }
-      def grabFill(fromElem: Element) = grabStyle[String](fromElem, "fill")
-      def grabOpacity(fromElem: Element) = grabStyle[Float](fromElem, "opacity")
-      def createFillStyle(fillAndOpacity: (String, Float)): FillStyle = {
-        fillAndOpacity match {
-          case ((fill: String, opacity: Float)) => return new FillStyle(fill, opacity)
+      def grabFill(fromElem: Element) = grabStyle(fromElem, "fill")
+      def grabOpacity(fromElem: Element) = {
+        try
+          grabStyle(fromElem, "opacity").toFloat
+        catch {
+          case e: Exception => {
+            println("PROBLEMO")
+            println(e)
+            1f
+          }
         }
       }
-      def createStrokeStyle(fillAndOpacity: (String, Float)): StrokeStyle = {
+      def createFillModel(fillAndOpacity: (String, Float)): FillModel = {
         fillAndOpacity match {
-          case ((fill: String, opacity: Float)) => return new StrokeStyle(fill, opacity, 0.5f) // todo
+          case ((fill: String, opacity: Float)) => return new FillModel(fill, opacity)
+        }
+      }
+      def createStrokeModel(fillAndOpacity: (String, Float)): StrokeModel = {
+        fillAndOpacity match {
+          case ((fill: String, opacity: Float)) => return new StrokeModel(fill, opacity, 0.5f) // todo
         }
       }
       val fillReps: List[Element] = this.doc.select(".fillRep").listIterator().toList
-      val fillColors: List[String] = fillReps.map[String](grabFill(_)).toList
-      val fillOpacities: List[Float] = fillReps.map[Float](grabOpacity(_)).toList
-      this.fillStyles = fillColors.zip(fillOpacities).map(createFillStyle).toList
+      val fillColors: List[String] = fillReps.map(grabFill(_)).toList
+      val fillOpacities: List[Float] = fillReps.map(grabOpacity(_)).toList
+      this.fillModels = fillColors.zip(fillOpacities).map(createFillModel).toList
       val strokeReps: List[Element] = this.doc.select(".strokeRep").listIterator().toList
-      val strokeColors: List[String] = fillReps.map[String](grabFill(_)).toList
-      val strokeOpacities: List[Float] = fillReps.map[Float](grabOpacity(_)).toList
-      this.strokeStyles = strokeColors.zip(strokeOpacities).map(createStrokeStyle).toList
+      val strokeColors: List[String] = strokeReps.map(grabFill(_)).toList
+      val strokeOpacities: List[Float] = strokeReps.map(grabOpacity(_)).toList
+      this.strokeModels = strokeColors.zip(strokeOpacities).map(createStrokeModel).toList
     }
 
     def initFirstAndLastCircle() = {
@@ -272,6 +295,8 @@ class GeoPicassoRx() {
     }
 
     val basisObject = basisObjectFromDoc()
+    grabNumOfCirclesInDiameter()
+    initFirstAndLastCircle()
     initTransformer(basisObject)
     initStyles()
   }

@@ -25,10 +25,10 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.90509668"
-     inkscape:cx="571.47062"
+     inkscape:cx="377.01626"
      inkscape:cy="1232.9997"
      inkscape:document-units="px"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1855"
      inkscape:window-height="1056"
@@ -77,7 +77,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Libre Baskerville;-inkscape-font-specification:Libre Baskerville">Fills</tspan></text>
     <path
        sodipodi:type="arc"
-       style="fill:#0000ff;stroke:none;fill-opacity:1"
+       style="fill:#0000ff;stroke:none;fill-opacity:1;opacity:0.5"
        id="path2994"
        sodipodi:cx="100.0051"
        sodipodi:cy="99.78833"
@@ -94,13 +94,13 @@
        sodipodi:cy="99.78833"
        sodipodi:cx="100.0051"
        id="path2996"
-       style="fill:#ffa500;stroke:none;opacity:0.33744856000000001;fill-opacity:1"
+       style="fill:#ffa500;stroke:none;opacity:0.5;fill-opacity:1"
        sodipodi:type="arc"
        class="fillRep" />
     <path
        class="fillRep"
        sodipodi:type="arc"
-       style="opacity:0.33744859999999999;fill:#ff00ff;fill-opacity:1;stroke:none"
+       style="opacity:0.5;fill:#ff00ff;fill-opacity:1;stroke:none"
        id="path19556"
        sodipodi:cx="100.0051"
        sodipodi:cy="99.78833"
@@ -120,17 +120,6 @@
          x="546.37292"
          id="tspan3018"
          sodipodi:role="line">Strokes</tspan></text>
-    <path
-       d="m 145.46196,99.78833 a 45.456863,45.456863 0 1 1 -90.913727,0 45.456863,45.456863 0 1 1 90.913727,0 z"
-       sodipodi:ry="45.456863"
-       sodipodi:rx="45.456863"
-       sodipodi:cy="99.78833"
-       sodipodi:cx="100.0051"
-       id="path3002"
-       style="opacity:0.33744859999999999;fill:#00ffff;fill-opacity:1;stroke:none"
-       sodipodi:type="arc"
-       class="fillRep"
-       transform="matrix(0.47747498,0,0,0.47747498,702.60168,-491.86659)" />
     <circle
        cx="600.0"
        cy="0"
@@ -150,6 +139,6 @@
          sodipodi:role="line"
          id="tspan17251"
          x="337.97946"
-         y="90.080757">100</tspan></text>
+         y="90.080757">1000</tspan></text>
   </g>
 </svg>
