@@ -17,6 +17,12 @@ libraryDependencies += "org.apache.xmlgraphics" % "batik-transcoder" % "1.7"
 
 libraryDependencies += "org.apache.xmlgraphics" % "batik-codec" % "1.7"
 
+libraryDependencies += "org.json" % "json" % "20140107"
+
 mainClass in Compile := Some("GeoPicassoRx")
 
-    
+val buildSettings = Defaults.defaultSettings ++ Seq(
+  //…
+  javaOptions += "-Xmx32G"
+  //…
+)

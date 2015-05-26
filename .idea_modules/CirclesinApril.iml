@@ -27,5 +27,6 @@
     <orderEntry type="library" name="batik-anim" level="project" />
     <orderEntry type="library" name="batik-transcoder-1.7" level="project" />
     <orderEntry type="library" name="batik-codec-1.7" level="project" />
+    <orderEntry type="library" name="json-20140107" level="project" />
   </component>
 </module>

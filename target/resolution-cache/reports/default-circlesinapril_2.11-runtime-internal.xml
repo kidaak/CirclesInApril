@@ -7,15 +7,27 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150515224002"/>
+		date="20150525134248"/>
 	<dependencies>
+		<module organisation="org.json" name="json">
+			<revision name="20140107" status="release" pubdate="20140107133602" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/douglascrockford/JSON-java" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="29">
+				<license name="The JSON License" url="http://json.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3553" time="0" location="/home/ben/.ivy2/cache/org.json/json/ivy-20140107.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json/json/20140107/json-20140107.pom"/>
+				<caller organisation="default" name="circlesinapril_2.11" conf="optional, compile, runtime, runtime-internal" rev="20140107" rev-constraint-default="20140107" rev-constraint-dynamic="20140107" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="json" type="jar" ext="jar" status="no" details="" size="64952" time="0" location="/home/ben/.ivy2/cache/org.json/json/jars/json-20140107.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json/json/20140107/json-20140107.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.apache.xmlgraphics" name="batik-codec">
-			<revision name="1.7" status="release" pubdate="20080109054305" resolver="public" artresolver="public" homepage="http://xmlgraphics.apache.org/batik/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="28">
+			<revision name="1.7" status="release" pubdate="20080109054305" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xmlgraphics.apache.org/batik/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="28">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3800" time="201" location="/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-codec/ivy-1.7.xml" searched="true" original-local-location="/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-codec/ivy-1.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/1.7/batik-codec-1.7.pom"/>
+				<metadata-artifact status="no" details="" size="3131" time="0" location="/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-codec/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/1.7/batik-codec-1.7.pom"/>
 				<caller organisation="default" name="circlesinapril_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="batik-codec" type="jar" ext="jar" status="successful" details="" size="165515" time="1285" location="/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-codec/jars/batik-codec-1.7.jar">
+					<artifact name="batik-codec" type="jar" ext="jar" status="no" details="" size="165515" time="0" location="/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-codec/jars/batik-codec-1.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlgraphics/batik-codec/1.7/batik-codec-1.7.jar"/>
 					</artifact>
 				</artifacts>

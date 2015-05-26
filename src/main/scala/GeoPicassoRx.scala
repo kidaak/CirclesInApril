@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat
 import java.util.{Calendar, Date}
 
 import org.apache.batik.transcoder.{TranscoderOutput, TranscoderInput}
-import org.apache.batik.transcoder.image.PNGTranscoder
+import org.apache.batik.transcoder.image.{JPEGTranscoder, PNGTranscoder}
 import org.jsoup.Jsoup
 import org.jsoup.nodes.{Element, Document}
 import org.jsoup.parser.Parser
@@ -12,6 +12,8 @@ import scala.collection.JavaConversions.asScalaIterator
 import scala.collection.immutable.Range
 import scala.util.matching.Regex
 import org.apache.batik.transcoder
+import org.json._
+
 
 /**
  *
@@ -22,13 +24,31 @@ import org.apache.batik.transcoder
 
 class GeoPicassoRx() {
 
+  // Our globals
+  val docFilename = "render"
+  val docTag = "7"
+  val baseDocFilename = "baseTemplate.svg"
+  val generateFolderName = "generated"
+  var fillModels: List[FillModel] = null
+  var strokeModels: List[StrokeModel] = null
+
+  var startingCircle: CircleModel = null
+  var lastCircle: CircleModel = null
+
   // Our model classes
 
   case class CircleStyle(fill: FillModel, stroke: StrokeModel)
-  case class CircleModel(index: Int, cx: Float, cy: Float, r: Float, scaleFactor: Int)
+  case class CircleModel(index: Int, cx: Float, cy: Float, r: Float, scaleFactor: Int) {
+    def diameter = {
+      this.r * 2
+    }
+  }
   case class FillModel(color: String, opacity: Float)
   case class StrokeModel(color: String, opacity: Float, strokeWidth: Float)
 
+  /**
+   * Responsible for providing functions to transform unit values to linear transformed values for proper placement
+   */
   object circleTransformer {
 
     var cxPlus: Float = 0
@@ -53,22 +73,51 @@ class GeoPicassoRx() {
 
   }
 
+  object matrixApplier {
+    val scale = docInfo.requestDocOnly.scale
+    val leftPercentWise = docInfo.requestDocOnly.left
+    val topPercentWise = docInfo.requestDocOnly.top
+    val lastCircleTransformedDiameter = circleTransformer.scalar * lastCircle.diameter
+    val left = (leftPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2)
+    val top = (topPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2)
+    val transformVal = s"matrix(${scale}},0,0,${scale}},${left}},${top}})"
 
-  var numOfCirclesInDiameter = 1000
-//  var numOfCirclesInDiameter = 10
-  var docFilename = "render"
-  var docTag = "5"
-  var baseDocFilename = "baseTemplate.svg"
+    
 
-  var doc: Document = null
-  var circlesContainer: Element = null
 
-  var fillModels: List[FillModel] = null
-  var strokeModels: List[StrokeModel] = null
+  }
 
-  var startingCircle: CircleModel = null
-  var lastCircle: CircleModel = null
+  object docInfo {
+    val firstDocSource = scala.io.Source.fromFile("baseTemplate.svg").mkString
+    val secondDocSource = scala.io.Source.fromFile("minimizedOutputTemplate.svg").mkString
+//    val generateRequestsDoc = JSON.parseRaw(scala.io.Source.fromFile("$this.generateFolderName/requests.json").mkString).get
+    val generateRequestDoc = new JSONArray(scala.io.Source.fromFile(s"${generateFolderName}/requests.json").mkString)
+    // doc with most of our information
+    val firstDoc = Jsoup.parse(firstDocSource, "", Parser.xmlParser())
+    // doc with info about output spatial numbers
+    val secondDoc = Jsoup.parse(secondDocSource, "", Parser.xmlParser())
 
+    val stylesDoc = firstDoc
+
+    val outputDoc = secondDoc
+    val basisObject = outputDoc.select("#gpPlacement").get(0)
+
+    val circlesContainer = this.outputDoc.createElement("g")
+    outputDoc.select("#gpPlacement").first().replaceWith(circlesContainer)
+
+//    val numOfCirclesInDiameter = Integer.valueOf(firstDoc.select(".nCount").first().select("tspan").first().text())
+    val numOfCirclesInDiameter = generateRequestDoc.getJSONObject(0).getInt("cirlesAlongX")
+
+    object requestDocOnly {
+      val scale = generateRequestDoc.getJSONObject(0).getDouble("scale").toFloat
+      val left = generateRequestDoc.getJSONObject(0).getDouble("left").toFloat
+      val top = generateRequestDoc.getJSONObject(0).getDouble("top").toFloat
+    }
+  }
+
+
+
+  """
   val circleStream = Observable.apply[CircleModel]((observer: Observer[CircleModel]) => {
     var lastCircleCreated: CircleModel = null
     var nc = this.nextCircle(lastCircleCreated)
@@ -79,7 +128,28 @@ class GeoPicassoRx() {
     }
     observer.onCompleted()
   }).onBackpressureBuffer
+  """
 
+  val circleStream = Observable.apply[CircleModel]((observer: Observer[CircleModel]) => {
+    def someRecursion(lastCircleCreated: Option[CircleModel]): Unit = {
+      // publish every valid circle we generate
+//      if (lastCircleCreated != null) observer.onNext(lastCircleCreated)
+//      val nextCircleCreated = this.nextCircle(lastCircleCreated)
+//      nextCircleCreated match {
+//        case null => observer.onCompleted()
+//        case _ => someRecursion(nextCircleCreated)
+//      }
+      val nextCircleCreated = this.nextCircle(lastCircleCreated)
+      nextCircleCreated match {
+        case None => observer.onCompleted()
+        case _ => {
+          observer.onNext(nextCircleCreated.get)
+          someRecursion(nextCircleCreated)
+        }
+      }
+    }
+    someRecursion(None)
+  }).onBackpressureBuffer
 
   val mainStream = circleStream
     .map[CircleModel](this.circleTransformed(_))
@@ -89,30 +159,34 @@ class GeoPicassoRx() {
     .doOnEach(this.appendToDoc(_))
     .doOnCompleted(this.saveDoc)
 //    .doOnCompleted(this.savePng)
+    .doOnCompleted(this.saveJpg)
     .subscribe()
 
-  def nextCircle(basedOnPreviousCircle: CircleModel): CircleModel = {
-    val lastCircle = basedOnPreviousCircle
-    val firstCircleRadius = 1f / this.numOfCirclesInDiameter / 2
+  def nextCircle(basedOnPreviousCircle: Option[CircleModel]): Option[CircleModel] = {
     val firstCircle = this.startingCircle
-    if (lastCircle == null) {
-      return firstCircle
+    if (basedOnPreviousCircle == None) {
+      return Some(firstCircle)
     }
-    def firstLargerCircle(): CircleModel = {
+    val lastCircle = basedOnPreviousCircle.get
+    def firstLargerCircle(): Option[CircleModel] = {
       val r = firstCircle.r * (lastCircle.scaleFactor + 1)
-      if (r > 0.5) return null
+      if (r > 0.5) return None
       val cx = r
-      return new CircleModel(lastCircle.index + 1, cx, lastCircle.cy, r, lastCircle.scaleFactor + 1)
+      return Some(new CircleModel(lastCircle.index + 1, cx, lastCircle.cy, r, lastCircle.scaleFactor + 1))
     }
-    def nextRightCircle(): CircleModel = {
+    def nextRightCircle(): Option[CircleModel] = {
       if (lastCircle.cx + lastCircle.r * 3 > 1)
-        return null
-      return new CircleModel(lastCircle.index + 1, lastCircle.cx + lastCircle.r * 2, lastCircle.cy, lastCircle.r, lastCircle.scaleFactor)
+        return None
+      return Some(new CircleModel(lastCircle.index + 1, lastCircle.cx + lastCircle.r * 2, lastCircle.cy, lastCircle.r, lastCircle.scaleFactor))
     }
     val nextSameSizedCircle = nextRightCircle()
-    if (nextSameSizedCircle == null)
-      return firstLargerCircle()
-    return nextSameSizedCircle
+//    if (nextSameSizedCircle == None)
+//      return Some(firstLargerCircle())
+//    return Some(nextSameSizedCircle)
+    return nextSameSizedCircle match {
+      case None => return firstLargerCircle()
+      case _ => return nextSameSizedCircle
+    }
   }
 
 
@@ -149,7 +223,7 @@ class GeoPicassoRx() {
    */
   def svgByCircleAndStyle(whichCircle: CircleModel, whichStyle: CircleStyle): Element = {
     println(whichCircle)
-    val svg: Element = doc.createElement("circle")
+    val svg: Element = this.docInfo.outputDoc.createElement("circle")
     svg.attr("cx", whichCircle.cx.toString())
     svg.attr("cy", whichCircle.cy.toString())
     svg.attr("r", whichCircle.r.toString())
@@ -174,11 +248,11 @@ class GeoPicassoRx() {
 //    this.circlesContainer.appendChild(element)
     try {
 //      element.before(this.circlesContainer.child(0))
-      this.circlesContainer.child(0).before(element)
+      this.docInfo.circlesContainer.child(0).before(element)
     }
     catch {
       case e: Exception => {
-        this.circlesContainer.appendChild(element)
+        this.docInfo.circlesContainer.appendChild(element)
       }
     }
   }
@@ -193,13 +267,13 @@ class GeoPicassoRx() {
 //    val wholeFilename = "%s%s.svg".format(this.docFilename, aUniqueTag())
     val wholeFilename = "%s%s.svg".format(this.docFilename, this.docTag)
     val savedDoc = new PrintWriter(wholeFilename)
-    savedDoc.write(this.doc.toString())
+    savedDoc.write(this.docInfo.outputDoc.toString())
     savedDoc.close()
   }
 
   def savePng(): Unit = {
     val pngConverter = new PNGTranscoder()
-    val svgInput: TranscoderInput = new TranscoderInput(new ByteArrayInputStream(this.doc.toString.getBytes()))
+    val svgInput: TranscoderInput = new TranscoderInput(new ByteArrayInputStream(this.docInfo.outputDoc.toString.getBytes()))
     val svgOutFile = new FileOutputStream("%s%s.png".format(this.docFilename, this.docTag))
     val svgOut= new TranscoderOutput(svgOutFile)
     pngConverter.transcode(svgInput, svgOut)
@@ -207,27 +281,29 @@ class GeoPicassoRx() {
     svgOutFile.close()
   }
 
+  def saveJpg(): Unit = {
+//    def stripOutside(): Unit = {
+//      val ourGroupContainer = this.docInfo.outputDoc.select("#layer1")
+//      ourGroupContainer.empty()
+//      ourGroupContainer.add(this.docInfo.circlesContainer)
+//    }
+//    stripOutside()
+    val jpgConverter = new JPEGTranscoder()
+    jpgConverter.addTranscodingHint(JPEGTranscoder.KEY_QUALITY, 1f)
+    val svgInput: TranscoderInput = new TranscoderInput(new ByteArrayInputStream(this.docInfo.outputDoc.toString.getBytes()))
+    val svgOutFile = new FileOutputStream("%s%s.jpg".format(this.docFilename, this.docTag))
+    val svgOut= new TranscoderOutput(svgOutFile)
+    jpgConverter.transcode(svgInput, svgOut)
+    svgOutFile.flush()
+    svgOutFile.close()
+  }
+
+
   /**
    * Create our svg object and also generate our transform info from the doc we've decided to read
    * By generate transform info, I mean create something like a mapping from our unit space to our desired space
    */
   def doOnStart(): Unit = {
-    def basisObjectFromDoc(): Element = {
-      // read our basis template
-      val baseDoc = scala.io.Source.fromFile(this.baseDocFilename).mkString
-      this.doc = Jsoup.parse(baseDoc, "", Parser.xmlParser())
-      // grab our basis object
-      val basisObject = this.doc.select("#gpPlacement").get(0)
-      this.circlesContainer = this.doc.createElement("g")
-      // place in our generated doc our generated circles group instea of this place holder object
-      this.doc.select("#gpPlacement").first().replaceWith(this.circlesContainer)
-      return basisObject
-    }
-
-    def grabNumOfCirclesInDiameter() = {
-      this.numOfCirclesInDiameter = Integer.valueOf(this.doc.select(".nCount").first().select("tspan").text())
-      this.doc.select(".nCount").remove()
-    }
 
     def initTransformer(fromBasisObject: Element) = {
       val basisCx = if (fromBasisObject.hasAttr("sodipodi:cx")) fromBasisObject.attr("sodipodi:cx").toFloat else fromBasisObject.attr("cx").toFloat
@@ -242,6 +318,7 @@ class GeoPicassoRx() {
     }
 
     def initStyles() = {
+
       def grabStyle(fromElem: Element, whichStyle: String): String = {
         val styleAttr = fromElem.attr("style")
         if (styleAttr.substring(0, 1).equals("o")) {
@@ -275,29 +352,46 @@ class GeoPicassoRx() {
           case ((fill: String, opacity: Float)) => return new StrokeModel(fill, opacity, 0.5f) // todo
         }
       }
-      val fillReps: List[Element] = this.doc.select(".fillRep").listIterator().toList
-      val fillColors: List[String] = fillReps.map(grabFill(_)).toList
-      val fillOpacities: List[Float] = fillReps.map(grabOpacity(_)).toList
-      this.fillModels = fillColors.zip(fillOpacities).map(createFillModel).toList
-      val strokeReps: List[Element] = this.doc.select(".strokeRep").listIterator().toList
-      val strokeColors: List[String] = strokeReps.map(grabFill(_)).toList
-      val strokeOpacities: List[Float] = strokeReps.map(grabOpacity(_)).toList
-      this.strokeModels = strokeColors.zip(strokeOpacities).map(createStrokeModel).toList
+      if (this.docInfo.generateRequestDoc != null) {
+        val firstRequest = this.docInfo.generateRequestDoc.getJSONObject(0)
+        // fill info
+        val fillsSerialized = firstRequest.getJSONArray("fills")
+        this.fillModels = (0 until fillsSerialized.length()).toList.map((i: Int) => {
+          val fillSerialized = fillsSerialized.getJSONObject(i)
+          new FillModel(fillSerialized.getString("color"), fillSerialized.getDouble("opacity").toFloat)
+        })
+        // stroke info
+        val strokesSerialized = firstRequest.getJSONArray("strokes")
+        this.strokeModels = (0 until strokesSerialized.length()).toList.map((i: Int) => {
+          val strokeSerialized = strokesSerialized.getJSONObject(i)
+          new StrokeModel(strokeSerialized.getString("color"), strokeSerialized.getDouble("opacity").toFloat, strokeSerialized.getDouble("width").toFloat)
+        })
+      }
+      else { // grab from our svg doc instead of our json doc
+          // fill info
+          val fillReps: List[Element] = this.docInfo.stylesDoc.select(".fillRep").listIterator().toList
+          val fillColors: List[String] = fillReps.map(grabFill(_))
+          val fillOpacities: List[Float] = fillReps.map(grabOpacity(_))
+          this.fillModels = fillColors.zip(fillOpacities).map(createFillModel)
+          // stroke info
+          val strokeReps: List[Element] = this.docInfo.stylesDoc.select(".strokeRep").listIterator().toList
+          val strokeColors: List[String] = strokeReps.map(grabFill(_))
+          val strokeOpacities: List[Float] = strokeReps.map(grabOpacity(_))
+          this.strokeModels = strokeColors.zip(strokeOpacities).map(createStrokeModel)
+      }
     }
 
     def initFirstAndLastCircle() = {
       this.startingCircle = new CircleModel(0,
-        0.5f / this.numOfCirclesInDiameter,
+        0.5f / this.docInfo.numOfCirclesInDiameter,
         0.5f,
-        0.5f / this.numOfCirclesInDiameter,
+        0.5f / this.docInfo.numOfCirclesInDiameter,
         1)
       this.lastCircle = new CircleModel(-1, 0.5f, 0.5f, 0.5f, -1)
     }
 
-    val basisObject = basisObjectFromDoc()
-    grabNumOfCirclesInDiameter()
     initFirstAndLastCircle()
-    initTransformer(basisObject)
+    initTransformer(docInfo.basisObject)
     initStyles()
   }
 
