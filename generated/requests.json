@@ -1,18 +1,15 @@
 [
   {
     "name": "bob",
-    "cirlesAlongX": 10,
+    "cirlesAlongX": 1000,
     "fills": [
-      {"color": "red", "opacity": 0.5},
-      {"color": "white", "opacity": 0.5},
-      {"color": "blue", "opacity": 0.5}
     ],
     "strokes": [
-      {"color": "black", "opacity": 0.5, "width": 0.2}
+      {"color": "black", "opacity": 1, "width": 0.1}
     ],
-    "scale": 2,
-    "left": 0.5,
-    "top": 0.5
+    "scale": 16,
+    "left": -0.5,
+    "top": 0
   }
 
 ]

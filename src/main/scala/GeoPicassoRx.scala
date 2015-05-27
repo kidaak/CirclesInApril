@@ -78,11 +78,17 @@ class GeoPicassoRx() {
     val leftPercentWise = docInfo.requestDocOnly.left
     val topPercentWise = docInfo.requestDocOnly.top
     val lastCircleTransformedDiameter = circleTransformer.scalar * lastCircle.diameter
-    val left = (leftPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2)
-    val top = (topPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2)
-    val transformVal = s"matrix(${scale}},0,0,${scale}},${left}},${top}})"
+    val left = (leftPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2) + (lastCircleTransformedDiameter / 2)
+//    val left = (leftPercentWise * lastCircleTransformedDiameter)
+    val top = (topPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2) + (lastCircleTransformedDiameter / 2)
+//    val top = (topPercentWise * lastCircleTransformedDiameter)
+    val transformVal = s"matrix(${scale},0,0,${scale},${left},${top})"
 
-    
+    def applyToElement(whichElement: Element) = {
+      whichElement.attr("transform", transformVal)
+    }
+
+
 
 
   }
@@ -390,9 +396,14 @@ class GeoPicassoRx() {
       this.lastCircle = new CircleModel(-1, 0.5f, 0.5f, 0.5f, -1)
     }
 
+    def applyGroupMatrixTransform() = {
+      this.matrixApplier.applyToElement(this.docInfo.circlesContainer)
+    }
+
     initFirstAndLastCircle()
     initTransformer(docInfo.basisObject)
     initStyles()
+    applyGroupMatrixTransform()
   }
 
 

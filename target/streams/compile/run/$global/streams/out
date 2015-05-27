@@ -33,16 +33,16 @@
 [0m[[0mdebug[0m] [0m	/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-js/jars/batik-js-1.7.jar[0m
 [0m[[0mdebug[0m] [0m	/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-codec/jars/batik-codec-1.7.jar[0m
 [0m[[0mdebug[0m] [0m	/home/ben/.ivy2/cache/org.json/json/jars/json-20140107.jar[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-4 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread run-main-4 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-18 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-18 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
-[0m[[0mdebug[0m] [0mInterrupting thread RxComputationThreadPool-1[0m
-[0m[[0mdebug[0m] [0m	Interrupted RxComputationThreadPool-1[0m
-[0m[[0mdebug[0m] [0mInterrupting thread RxComputationThreadPool-2[0m
-[0m[[0mdebug[0m] [0m	Interrupted RxComputationThreadPool-2[0m
-[0m[[0mdebug[0m] [0mInterrupting thread Batik CleanerThread[0m
-[0m[[0mdebug[0m] [0m	Interrupted Batik CleanerThread[0m
 [0m[[0mdebug[0m] [0mInterrupting thread Image Fetcher 3[0m
 [0m[[0mdebug[0m] [0m	Interrupted Image Fetcher 3[0m
+[0m[[0mdebug[0m] [0mInterrupting thread Batik CleanerThread[0m
+[0m[[0mdebug[0m] [0m	Interrupted Batik CleanerThread[0m
+[0m[[0mdebug[0m] [0mInterrupting thread RxComputationThreadPool-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted RxComputationThreadPool-2[0m
+[0m[[0mdebug[0m] [0mInterrupting thread RxComputationThreadPool-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted RxComputationThreadPool-1[0m
 [0m[[0mdebug[0m] [0mSandboxed run complete..[0m
 [0m[[0mdebug[0m] [0mExited with code 0[0m
