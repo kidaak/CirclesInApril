@@ -12,3 +12,9 @@ sbt
 run
 show discoveredMainClasses 
 run
+sbt
+run
+sbt
+run
+console
+run

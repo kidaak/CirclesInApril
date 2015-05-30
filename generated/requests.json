@@ -1,8 +1,24 @@
 [
   {
     "name": "bob",
-    "cirlesAlongX": 1000,
+    "circlesAlongX": 10,
     "fills": [
+    ],
+    "strokes": [
+      {"color": "black", "opacity": 1, "width": 0.1}
+    ],
+    "scale": 16,
+    "left": -0.5,
+    "top": 0,
+    "width": 2000,
+    "height": 1000
+  },
+  {
+    "name": "orange",
+    "circlesAlongX": 15,
+    "fills": [
+      {"color": "black", "opacity": 0.2},
+      {"color": "red", "opacity": 0.2},
     ],
     "strokes": [
       {"color": "black", "opacity": 1, "width": 0.1}
@@ -11,5 +27,4 @@
     "left": -0.5,
     "top": 0
   }
-
 ]
