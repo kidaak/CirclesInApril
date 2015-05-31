@@ -30,8 +30,8 @@
           <file leaf-file-name="GeoPicassoRx.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/GeoPicassoRx.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33010754">
-                  <caret line="343" column="8" selection-start-line="343" selection-start-column="8" selection-end-line="343" selection-end-column="8" />
+                <state vertical-scroll-proportion="-0.13978495">
+                  <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#74#0" expanded="true" />
                   </folding>
@@ -169,7 +169,7 @@
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value=".jso&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/generated/requests.json&#10;build.sb&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/build.sbt&#10;requests.js&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/generated/requests.json&#10;rxsca&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala&#10;minimizedou&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/minimizedOutputTemplate.svg&#10;basetem&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/baseTemplate.svg&#10;geopicassorx&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="geo&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala&#10;.jso&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/generated/requests.json&#10;build.sb&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/build.sbt&#10;requests.js&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/generated/requests.json&#10;rxsca&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala&#10;minimizedou&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/minimizedOutputTemplate.svg&#10;basetem&#9;FILE&#9;file:///home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/baseTemplate.svg&#10;geopicassorx&#9;null&#9;null" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -2765,8 +2765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/GeoPicassoRx.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33010754">
-          <caret line="343" column="8" selection-start-line="343" selection-start-column="8" selection-end-line="343" selection-end-column="8" />
+        <state vertical-scroll-proportion="-0.13978495">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#0#74#0" expanded="true" />
           </folding>
