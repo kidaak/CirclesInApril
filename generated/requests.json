@@ -1,30 +1,33 @@
 [
   {
-    "name": "bob",
-    "circlesAlongX": 10,
+    "name": "lady",
+    "circlesAlongX": 1000,
     "fills": [
+      {"color": "#ff00ff", "opacity": 0.5},
+      {"color": "#ffa500", "opacity": 0.5},
+      {"color": "#0000ff", "opacity": 0.5}
     ],
     "strokes": [
-      {"color": "black", "opacity": 1, "width": 0.1}
     ],
-    "scale": 16,
-    "left": -0.5,
-    "top": 0,
-    "width": 2000,
-    "height": 1000
+    "scale": 4,
+    "left": -1.3,
+    "width": 1920,
+    "height": 1080
   },
-  {
-    "name": "orange",
-    "circlesAlongX": 15,
-    "fills": [
-      {"color": "black", "opacity": 0.2},
-      {"color": "red", "opacity": 0.2},
-    ],
-    "strokes": [
-      {"color": "black", "opacity": 1, "width": 0.1}
-    ],
-    "scale": 16,
-    "left": -0.5,
-    "top": 0
-  }
+  // {
+  // keepers
+  //   "name": "lady",
+  //   "circlesAlongX": 500,
+  //   "fills": [
+  //     {"color": "#ff00ff", "opacity": 0.5},
+  //     {"color": "#0000ff", "opacity": 0.3},
+  //     {"color": "#ffa500", "opacity": 0.8}
+  //   ],
+  //   "strokes": [
+  //   ],
+  //   "scale": 4,
+  //   "left": -1.4,
+  //   "width": 1920,
+  //   "height": 1080
+  // }
 ]

@@ -12,9 +12,8 @@ import org.json._
 
 /**
  * TODO:
- * json comments
+ * placement
  * polygons
- * resolution
  */
 
 
@@ -32,19 +31,12 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
   val docTag = "7"
   val baseDocFilename = "baseTemplate.svg"
   val generateFolderName = "generated"
-//  var fillModels: List[FillModel] = null
-//  var strokeModels: List[StrokeModel] = null
-
   var startingCircle: CircleModel = null
   var lastCircle: CircleModel = null
-  // the doc that's fed to our raster encoders
-//  val outputDoc = Jsoup.parse("<svg></svg>")
-//  val circlesContainer = this.outputDoc.createElement("g")
   var outputDoc: Document = null
   var circlesContainer: Element = null
 
   // Our model classes
-
   case class CircleStyle(fill: FillModel, stroke: StrokeModel)
   case class CircleModel(index: Int, cx: Float, cy: Float, r: Float, scaleFactor: Int) {
     def diameter = this.r * 2
@@ -68,8 +60,16 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
       new StrokeModel(strokeSerialized.getString("color"), strokeSerialized.getDouble("opacity").toFloat, strokeSerialized.getDouble("width").toFloat)
     })
     val scale = contextInfoSerialized.getDouble("scale").toFloat
-    val left = contextInfoSerialized.getDouble("left").toFloat
-    val top = contextInfoSerialized.getDouble("top").toFloat
+    val left: Option[Float] = try {
+      Option(contextInfoSerialized.getDouble("left").toFloat)
+    } catch {
+      case _ => None
+    }
+    val top: Option[Float] = try {
+      Option(contextInfoSerialized.getDouble("top").toFloat)
+    } catch {
+      case _ => None
+    }
     val width = contextInfoSerialized.getInt("width").toInt
     val height = contextInfoSerialized.getInt("height").toInt
   }
@@ -107,58 +107,40 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
    * Similarly with the top
    */
   object matrixApplier {
+    val width = contextInfo.width
+    val height = contextInfo.height
     val scale = contextInfo.scale
+
     val leftPercentWise = contextInfo.left
     val topPercentWise = contextInfo.top
-    val lastCircleTransformedDiameter = circleTransformer.scalar * lastCircle.diameter
-    val width = contextInfo.width
-//    val leftEdgePlacement = width * leftPercentWise
-    val leftEdgePlacement = (leftPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2) + (lastCircleTransformedDiameter / 2)
-//    val left = (leftPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2) + (lastCircleTransformedDiameter / 2)
-//    val left = (leftPercentWise * lastCircleTransformedDiameter)
-//    val top = (topPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2) + (lastCircleTransformedDiameter / 2)
-//    val top = (topPercentWise * lastCircleTransformedDiameter)
-    val height = contextInfo.height
-//    val topEdgePlacement = height * topPercentWise
-    val topEdgePlacement = (topPercentWise * lastCircleTransformedDiameter) - (scale * lastCircleTransformedDiameter / 2) + (lastCircleTransformedDiameter / 2)
-    val transformVal = s"matrix(${scale},0,0,${scale},${leftEdgePlacement},${topEdgePlacement})"
-
+    val desiredFinalRadius = circleTransformer.rTransform(lastCircle.r) * scale
+    // left
+    val scaledCx = circleTransformer.cxTransform(lastCircle.cx)
+    val scaledAndTransformedCx = scaledCx * scale
+    val leftOffset = leftPercentWise match {
+      case None => (scaledAndTransformedCx - scaledCx) * -1
+      case _ => {
+          val desiredFinalLeft = (width * leftPercentWise.get)
+          val desiredFinalCx = desiredFinalLeft + desiredFinalRadius
+          ((scaledAndTransformedCx - scaledCx) + (scaledCx - desiredFinalCx)) * -1
+      }
+    }
+    //top
+    val scaledCy = circleTransformer.cyTransform(lastCircle.cy)
+    val scaledAndTransformedCy = scaledCy * scale
+    val topOffset = topPercentWise match {
+      case None => (scaledAndTransformedCy - scaledCy) * -1
+      case _ => {
+        val desiredFinalTop = (height * topPercentWise.get)
+        val desiredFinalCy = desiredFinalTop + desiredFinalRadius
+        ((scaledAndTransformedCy - scaledCy) + (scaledCy - desiredFinalCy)) * -1
+      }
+    }
+    val transformVal = s"matrix(${scale},0,0,${scale},${leftOffset},${topOffset})"
     def applyToElement(whichElement: Element) = {
       whichElement.attr("transform", transformVal)
     }
   }
-
-//  object docInfo {
-////    val outputDoc = Jsoup.parse(scala.io.Source.fromFile("minimizedOutputTemplate.svg").mkString, "", Parser.xmlParser())
-////    val basisObject = outputDoc.select("#gpPlacement").get(0)
-//
-//    val circlesContainer = this.outputDoc.createElement("g")
-//    outputDoc.select("#gpPlacement").first().replaceWith(circlesContainer)
-//
-////    val numOfCirclesInDiameter = Integer.valueOf(firstDoc.select(".nCount").first().select("tspan").first().text())
-//    val numOfCirclesInDiameter = contextInfo.getInt("cirlesAlongX")
-//
-//    object requestDocOnly {
-//      val scale = contextInfo.getDouble("scale").toFloat
-//      val left = contextInfo.getDouble("left").toFloat
-//      val top = contextInfo.getDouble("top").toFloat
-//    }
-//  }
-
-
-
-  """
-  val circleStream = Observable.apply[CircleModel]((observer: Observer[CircleModel]) => {
-    var lastCircleCreated: CircleModel = null
-    var nc = this.nextCircle(lastCircleCreated)
-    while (nc != null) {
-      observer.onNext(nc)
-      lastCircleCreated = nc
-      nc = this.nextCircle(lastCircleCreated)
-    }
-    observer.onCompleted()
-  }).onBackpressureBuffer
-  """
 
   val circleStream = Observable.apply[CircleModel]((observer: Observer[CircleModel]) => {
     def someRecursion(lastCircleCreated: Option[CircleModel]): Unit = {
@@ -343,7 +325,7 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
       this.circleTransformer.cyPlus = basisCy - (this.lastCircle.cy * figuredScalar)
       """
       // ASSUMPTION: height < width
-      val figuredScalar = this.contextInfo.height / this.lastCircle.r
+      val figuredScalar = this.contextInfo.height / 2 / this.lastCircle.r
       this.circleTransformer.scalar = figuredScalar
       this.circleTransformer.cxPlus = this.contextInfo.width / 2 - (this.lastCircle.cx * figuredScalar)
       this.circleTransformer.cyPlus = this.contextInfo.height / 2 - (this.lastCircle.cy * figuredScalar)
@@ -351,11 +333,13 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
 
     def createOutputSvg(): Unit = {
       //  val circlesContainer = this.outputDoc.createElement("g")
-      this.outputDoc = Jsoup.parse("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg></svg>",  "", Parser.xmlParser())
+      this.outputDoc = Jsoup.parse("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">",  "", Parser.xmlParser())
       this.outputDoc.select("svg").first().attr("width", this.contextInfo.width.toString)
       this.outputDoc.select("svg").first().attr("height", this.contextInfo.height.toString)
       // and create our circles container from it
       this.circlesContainer = this.outputDoc.createElement("g")
+      this.outputDoc.select("svg").first().appendChild(this.circlesContainer)
+
     }
 
     def initFirstAndLastCircle() = {
@@ -374,7 +358,7 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
     createOutputSvg()
     initFirstAndLastCircle()
     initTransformer()
-//    applyGroupMatrixTransform()
+    applyGroupMatrixTransform()
 
 
   }
@@ -388,13 +372,14 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
 class GeoPicassoMetaRx {
   //  val contextInfoStream: Observable[JSONObject] = new JSONArray(scala.io.Source.fromFile("/generated/requests.json").mkString)
   val contextInfoStream: Observable[JSONObject] = Observable.apply[JSONObject]((observer: Observer[JSONObject]) => {
-    val requestsSerialized = new JSONArray(scala.io.Source.fromFile("generated/requests.json").mkString)
+    val requestsSerialized = new JSONArray(new Minify().minify(scala.io.Source.fromFile("generated/requests.json").mkString))
       (0 until requestsSerialized.length()) foreach {(i: Int) => {
           observer.onNext(requestsSerialized.getJSONObject(i))
       }}
   })
   contextInfoStream.doOnEach((contextInfo: JSONObject) => {
     new GeoPicassoRx(contextInfo)
+//    Observable.
   }).subscribe()
 }
 
