@@ -1,16 +1,21 @@
 [
   {
     "name": "lady",
-    "circlesAlongX": 1000,
+    "background": "black",
+    "shapesAlongX": 500,
     "fills": [
-      {"color": "#ff00ff", "opacity": 0.5},
-      {"color": "#ffa500", "opacity": 0.5},
-      {"color": "#0000ff", "opacity": 0.5}
     ],
     "strokes": [
+      {"color": "blue", "opacity": 1, "width": 0.02},
+      {"color": "orange", "opacity": 1, "width": 0.02},
     ],
-    "scale": 4,
-    "left": -1.3,
+    "shapes": [
+      5, 0, "triangle"
+    ],
+    "scale": 2.5,
+//    "scale": 1,
+    "left": -0.5,
+//    "left": 0,
     "width": 1920,
     "height": 1080
   },

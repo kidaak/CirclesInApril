@@ -1,35 +1,70 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/testingPurposes.java, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/DocViewer.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/testingPurposes.java, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/DocViewer.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/testingPurposes.java, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/DocViewer.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala, /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources and 2 Java sources to /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.6[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 5425a966, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 6e808fa9, interfacing (CompilerInterface) with Scala compiler version 2.11.6[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes:/home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes:/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/lib/rxscala_2.11-0.24.1.jar:/home/ben/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar:/home/ben/.ivy2/cache/io.reactivex/rxscala_2.11/jars/rxscala_2.11-0.24.1.jar:/home/ben/.ivy2/cache/io.reactivex/rxjava/jars/rxjava-1.0.8.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-svggen/jars/batik-svggen-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-awt-util/jars/batik-awt-util-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-util/jars/batik-util-1.7.jar:/home/ben/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.3.04.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-transcoder/jars/batik-transcoder-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/fop/jars/fop-0.94.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/xmlgraphics-commons/jars/xmlgraphics-commons-1.2.jar:/home/ben/.ivy2/cache/commons-io/commons-io/jars/commons-io-1.1.jar:/home/ben/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.0.4.jar:/home/ben/.ivy2/cache/org.apache.avalon.framework/avalon-framework-api/jars/avalon-framework-api-4.3.1.jar:/home/ben/.ivy2/cache/org.apache.avalon.framework/avalon-framework-impl/jars/avalon-framework-impl-4.3.1.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-bridge/jars/batik-bridge-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-anim/jars/batik-anim-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-dom/jars/batik-dom-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-css/jars/batik-css-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-ext/jars/batik-ext-1.7.jar:/home/ben/.ivy2/cache/xml-apis/xml-apis-ext/jars/xml-apis-ext-1.3.04.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-xml/jars/batik-xml-1.7.jar:/home/ben/.ivy2/cache/xalan/xalan/jars/xalan-2.6.0.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-parser/jars/batik-parser-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-svg-dom/jars/batik-svg-dom-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-gvt/jars/batik-gvt-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-script/jars/batik-script-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-js/jars/batik-js-1.7.jar:/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-codec/jars/batik-codec-1.7.jar:/home/ben/.ivy2/cache/org.json/json/jars/json-20140107.jar[0m
-[0m[[33mwarn[0m] [0m/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala:176: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
-[0m[[33mwarn[0m] [0m  """[0m
-[0m[[33mwarn[0m] [0m  ^[0m
-[0m[[33mwarn[0m] [0m/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala:360: a pure expression does nothing in statement position; you may be omitting necessary parentheses[0m
-[0m[[33mwarn[0m] [0m      """[0m
-[0m[[33mwarn[0m] [0m      ^[0m
+[0m[[33mwarn[0m] [0m/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala:106: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.[0m
+[0m[[33mwarn[0m] [0m      case _ => None[0m
+[0m[[33mwarn[0m] [0m           ^[0m
+[0m[[33mwarn[0m] [0m/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala:111: This catches all Throwables. If this is really intended, use `case _ : Throwable` to clear this warning.[0m
+[0m[[33mwarn[0m] [0m      case _ => None[0m
+[0m[[33mwarn[0m] [0m           ^[0m
 [0m[[33mwarn[0m] [0mtwo warnings found[0m
-[0m[[0mdebug[0m] [0mScala compilation took 11.90105616 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 13.567017906 s[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/tmp/sbt_f6171e63/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
+[0m[[0mdebug[0m] [0mJava compilation took 1.011485952 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.01662661 s[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/DocViewer.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/DocViewer.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/testingPurposes.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/testingPurposes.java)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

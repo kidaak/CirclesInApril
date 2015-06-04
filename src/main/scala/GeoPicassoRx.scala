@@ -7,20 +7,23 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.{Element, Document}
 import org.jsoup.parser.Parser
 import rx.lang.scala._
+import scala.collection.mutable
 import scala.util.matching.Regex
 import org.json._
 
 /**
  * TODO:
  * placement
- * polygons
  */
 
 
 /**
  *
  * Something like
- *   countdown (numberOfCircles) -> map (generateCircle) -> map (svgElement) -> do (appendDoc)
+ *    next shape specification -> zip nextShapeKeyVal -> next shape model ->               (zip) next shape style -> next svg element                    ->         (do) append to doc
+ *      (values)                       eg: 0            (instance from parameters)
+ *
+ *
  *
  */
 
@@ -31,35 +34,80 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
   val docTag = "7"
   val baseDocFilename = "baseTemplate.svg"
   val generateFolderName = "generated"
-  var startingCircle: CircleModel = null
-  var lastCircle: CircleModel = null
+  var startingShape: ShapeModel = null
+  var lastShape: ShapeModel = null
   var outputDoc: Document = null
-  var circlesContainer: Element = null
+  var shapesContainer: Element = null
 
   // Our model classes
-  case class CircleStyle(fill: FillModel, stroke: StrokeModel)
-  case class CircleModel(index: Int, cx: Float, cy: Float, r: Float, scaleFactor: Int) {
+  case class ShapeStyle(fill: FillStyle, stroke: StrokeStyle)
+
+  class ShapeModel(
+    _index: Int,
+    _cx: Float,
+    _cy: Float,
+    _r: Float,
+    _scaleFactor: Int) {
+    val index = _index
+    val cx = _cx
+    val cy = _cy
+    val r = _r
+    val scaleFactor = _scaleFactor
     def diameter = this.r * 2
   }
-  case class FillModel(color: String, opacity: Float)
-  case class StrokeModel(color: String, opacity: Float, strokeWidth: Float)
+
+  case class CircleModel(override val index: Int, override val cx: Float, override val cy: Float, override val r: Float, override val scaleFactor: Int) extends ShapeModel(index, cx, cy, r, scaleFactor) {
+  }
+
+  case class PolygonModel(override val index: Int, override val cx: Float, override val cy: Float, override val r: Float, override val scaleFactor: Int, numOfSides: Int, points: List[Tuple2[Float, Float]]) extends ShapeModel(index, cx, cy, r, scaleFactor) {
+  }
+
+  case class FillStyle(color: String, opacity: Float)
+  case class StrokeStyle(color: String, opacity: Float, strokeWidth: Float)
 
   object contextInfo {
+    final val CIRCLE = 0
+    final val TRIANGLE = 3
+    final val SQUARE = 4
+
     val name = contextInfoSerialized.getString("name")
-    val circlesAlongX = contextInfoSerialized.getInt("circlesAlongX")
+    val background = try {
+      contextInfoSerialized.getString("background")
+    } catch {
+      case _ => "white"
+    }
+    val shapesAlongX = contextInfoSerialized.getInt("shapesAlongX")
+    // shape elements
+    private val shapesSerialized = contextInfoSerialized.getJSONArray("shapes")
+    val shapesSequence: List[Int] = (0 until shapesSerialized.length()).toList.map((i: Int) => {
+      val shapeSerialized = shapesSerialized.get(i)
+      shapeSerialized match {
+        case s: String => s match {
+          case "circle" => CIRCLE
+          case "triangle" => TRIANGLE
+          case "square" => SQUARE
+        }
+        case n: java.lang.Integer => n.toInt
+      }
+    })
     // fills
     private val fillsSerialized = contextInfoSerialized.getJSONArray("fills")
-    val fillModels = (0 until fillsSerialized.length()).toList.map((i: Int) => {
+    val fillStyles = (0 until fillsSerialized.length()).toList.map((i: Int) => {
       val fillSerialized = fillsSerialized.getJSONObject(i)
-      new FillModel(fillSerialized.getString("color"), fillSerialized.getDouble("opacity").toFloat)
+      new FillStyle(fillSerialized.getString("color"), fillSerialized.getDouble("opacity").toFloat)
     })
     // strokes
     private val strokesSerialized = contextInfoSerialized.getJSONArray("strokes")
-    val strokeModels = (0 until strokesSerialized.length()).toList.map((i: Int) => {
+    val strokeStyles = (0 until strokesSerialized.length()).toList.map((i: Int) => {
       val strokeSerialized = strokesSerialized.getJSONObject(i)
-      new StrokeModel(strokeSerialized.getString("color"), strokeSerialized.getDouble("opacity").toFloat, strokeSerialized.getDouble("width").toFloat)
+      new StrokeStyle(strokeSerialized.getString("color"), strokeSerialized.getDouble("opacity").toFloat, strokeSerialized.getDouble("width").toFloat)
     })
-    val scale = contextInfoSerialized.getDouble("scale").toFloat
+//    val scale = contextInfoSerialized.getDouble("scale").toFloat
+    val scale = try {
+      contextInfoSerialized.getDouble("scale").toFloat
+    } catch {
+      case _ => 1f
+    }
     val left: Option[Float] = try {
       Option(contextInfoSerialized.getDouble("left").toFloat)
     } catch {
@@ -74,10 +122,65 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
     val height = contextInfoSerialized.getInt("height").toInt
   }
 
+  object polygonPointsHelper {
+
+    // This could certainly be more elegant. Wishing I could think more like a math guy...
+    def createPoint(fromAngle: Float, forWhichPolygon: ShapeModel): Tuple2[Float, Float] = {
+      var inWhichQuadrant = 0
+      def calculateInnerAngleAndQuadrant(angle: Float): Float = {
+        angle match {
+          case _ if angle <= 90 => {
+            inWhichQuadrant = 1
+            angle
+          }
+          case _ if angle <= 180 => {
+            inWhichQuadrant = 2
+            180 - angle
+          }
+          case _ if angle <= 270 => {
+            inWhichQuadrant = 3
+            angle - 180
+          }
+          case _ if angle <= 360 => {
+            inWhichQuadrant = 4
+            360 - angle
+          }
+        }
+      }
+      val calcAngle = calculateInnerAngleAndQuadrant(fromAngle)
+      val relY = (scala.math.sin(scala.math.toRadians(calcAngle)) * forWhichPolygon.r).toFloat
+      val relX = (scala.math.sqrt(scala.math.pow(forWhichPolygon.r, 2) - scala.math.pow(relY, 2))).toFloat
+      val createdPoint: Tuple2[Float, Float] = inWhichQuadrant match {
+        case 1 => Tuple2(forWhichPolygon.cx + relX, forWhichPolygon.cy + relY)
+        case 2 => Tuple2(forWhichPolygon.cx + relX * -1, forWhichPolygon.cy + relY)
+        case 3 => Tuple2(forWhichPolygon.cx + relX * -1, forWhichPolygon.cy + relY * -1)
+        case 4 => Tuple2(forWhichPolygon.cx + relX, forWhichPolygon.cy + relY * -1)
+      }
+      return createdPoint
+    }
+
+    def pointsFor(whichPolygon: ShapeModel, withNumberOfSides: Int): List[Tuple2[Float, Float]] = {
+      var atThetas = mutable.MutableList[Float]()
+      // Not scala-ish
+      val innerAngle = 360f / withNumberOfSides
+      var thetaAngle = 0f
+      while (thetaAngle < 360f){
+        atThetas.+=(thetaAngle)
+        thetaAngle += innerAngle
+      }
+//      atThetas = atThetas map((innerAngle: Float) => if (innerAngle + 90 < 360) innerAngle + 90 else (innerAngle + 90) - 360)
+      atThetas = atThetas map((innerAngle: Float) => if (innerAngle - 90 > 0) innerAngle - 90 else (innerAngle - 90) + 360)
+      val atThetasFinal = atThetas.toList
+
+      return atThetasFinal map(createPoint(_, whichPolygon))
+
+    }
+  }
+
   /**
    * Responsible for providing functions to transform unit values to linear transformed values for proper placement
    */
-  object circleTransformer {
+  object shapeTransformer {
 
     var cxPlus: Float = 0
     var cyPlus: Float = 0
@@ -95,14 +198,14 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
       return scalar * r
     }
 
-    def transform(whichCircle: CircleModel): CircleModel = {
-      return new CircleModel(whichCircle.index, this.cxTransform(whichCircle.cx), this.cyTransform(whichCircle.cy),this.rTransform(whichCircle.r), whichCircle.scaleFactor)
+    def transform(whichShape: ShapeModel): ShapeModel = {
+      return new ShapeModel(whichShape.index, this.cxTransform(whichShape.cx), this.cyTransform(whichShape.cy),this.rTransform(whichShape.r), whichShape.scaleFactor)
     }
 
   }
 
   /**
-   * For applying a transform to our group of circles
+   * For applying a transform to our group of shapes
    * Move the left edge, as a percent, from 0 at the start, to 100 at the max of our width
    * Similarly with the top
    */
@@ -113,9 +216,9 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
 
     val leftPercentWise = contextInfo.left
     val topPercentWise = contextInfo.top
-    val desiredFinalRadius = circleTransformer.rTransform(lastCircle.r) * scale
+    val desiredFinalRadius = shapeTransformer.rTransform(lastShape.r) * scale
     // left
-    val scaledCx = circleTransformer.cxTransform(lastCircle.cx)
+    val scaledCx = shapeTransformer.cxTransform(lastShape.cx)
     val scaledAndTransformedCx = scaledCx * scale
     val leftOffset = leftPercentWise match {
       case None => (scaledAndTransformedCx - scaledCx) * -1
@@ -126,7 +229,7 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
       }
     }
     //top
-    val scaledCy = circleTransformer.cyTransform(lastCircle.cy)
+    val scaledCy = shapeTransformer.cyTransform(lastShape.cy)
     val scaledAndTransformedCy = scaledCy * scale
     val topOffset = topPercentWise match {
       case None => (scaledAndTransformedCy - scaledCy) * -1
@@ -142,124 +245,164 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
     }
   }
 
-  val circleStream = Observable.apply[CircleModel]((observer: Observer[CircleModel]) => {
-    def someRecursion(lastCircleCreated: Option[CircleModel]): Unit = {
-      val nextCircleCreated = this.nextCircle(lastCircleCreated)
-      nextCircleCreated match {
+  val shapeStream = Observable.apply[ShapeModel]((observer: Observer[ShapeModel]) => {
+    def someRecursion(lastShapeCreated: Option[ShapeModel]): Unit = {
+      val nextShapeCreated = this.nextShape(lastShapeCreated)
+      nextShapeCreated match {
         case None => observer.onCompleted()
         case _ => {
-          observer.onNext(nextCircleCreated.get)
-          someRecursion(nextCircleCreated)
+          observer.onNext(nextShapeCreated.get)
+          someRecursion(nextShapeCreated)
         }
       }
     }
     someRecursion(None)
   }).onBackpressureBuffer
 
-  val mainStream = circleStream
-    .map[CircleModel](this.circleTransformed(_))
-    .zip[CircleStyle](circleStream.map[Int]((whichCircle: CircleModel) => whichCircle.index).map[CircleStyle](this.styleByIndex))
-    .map[Element](this.svgByCircleAndStyle)
+//  *    next shape specification -> zip nextShapeKeyVal -> next shape model ->               (zip) next shape style -> next svg element                    ->         (do) append to doc
+//    *      (values)                       eg: 0            (instance from parameters)
+
+  val mainStream = shapeStream
+    .map[ShapeModel](this.shapeTransformed(_))
+    .zip[Int](shapeStream.map[Int]((whichShape: ShapeModel) => whichShape.index).map[Int](this.shapeKeyByIndex))
+    .map[Tuple2[Int, ShapeModel]]((shapeAndKey: Tuple2[ShapeModel, Int]) => {
+      Tuple2(shapeAndKey._2, shapeAndKey._1)
+    })
+    .map[ShapeModel](this.shapeByKey)
+    .zip[ShapeStyle](shapeStream.map[Int]((whichShape: ShapeModel) => whichShape.index).map[ShapeStyle](this.styleByIndex))
+    .map[Element](this.svgByShapeAndStyle)
     .doOnSubscribe(this.doOnStart)
     .doOnEach(this.appendToDoc(_))
     .doOnCompleted(this.saveDoc)
-//    .doOnCompleted(this.savePng)
+    .doOnCompleted(this.savePng)
     .doOnCompleted(this.saveJpg)
     .subscribe()
 
-  def nextCircle(basedOnPreviousCircle: Option[CircleModel]): Option[CircleModel] = {
-    val firstCircle = this.startingCircle
-    if (basedOnPreviousCircle == None) {
-      return Some(firstCircle)
+  def nextShape(basedOnPreviousShape: Option[ShapeModel]): Option[ShapeModel] = {
+    val firstShape = this.startingShape
+    if (basedOnPreviousShape == None) {
+      return Some(firstShape)
     }
-    val lastCircle = basedOnPreviousCircle.get
-    def firstLargerCircle(): Option[CircleModel] = {
-      val r = firstCircle.r * (lastCircle.scaleFactor + 1)
+    val lastShape = basedOnPreviousShape.get
+    def firstLargerShape(): Option[ShapeModel] = {
+      val r = firstShape.r * (lastShape.scaleFactor + 1)
       if (r > 0.5) return None
       val cx = r
-      return Some(new CircleModel(lastCircle.index + 1, cx, lastCircle.cy, r, lastCircle.scaleFactor + 1))
+      return Some(new ShapeModel(lastShape.index + 1, cx, lastShape.cy, r, lastShape.scaleFactor + 1))
     }
-    def nextRightCircle(): Option[CircleModel] = {
-      if (lastCircle.cx + lastCircle.r * 3 > 1)
+    def nextRightShape(): Option[ShapeModel] = {
+      if (lastShape.cx + lastShape.r * 3 > 1)
         return None
-      return Some(new CircleModel(lastCircle.index + 1, lastCircle.cx + lastCircle.r * 2, lastCircle.cy, lastCircle.r, lastCircle.scaleFactor))
+      return Some(new ShapeModel(lastShape.index + 1, lastShape.cx + lastShape.r * 2, lastShape.cy, lastShape.r, lastShape.scaleFactor))
     }
-    val nextSameSizedCircle = nextRightCircle()
-//    if (nextSameSizedCircle == None)
-//      return Some(firstLargerCircle())
-//    return Some(nextSameSizedCircle)
-    return nextSameSizedCircle match {
-      case None => return firstLargerCircle()
-      case _ => return nextSameSizedCircle
+    val nextSameSizedShape = nextRightShape()
+//    if (nextSameSizedShape == None)
+//      return Some(firstLargerShape())
+//    return Some(nextSameSizedShape)
+    return nextSameSizedShape match {
+      case None => return firstLargerShape()
+      case _ => return nextSameSizedShape
     }
   }
 
 
-  def circleTransformed(whichCircle: CircleModel): CircleModel = {
-    return this.circleTransformer.transform(whichCircle)
-  }
-
-  /**
-   * Return a circle style according to a given index
-   */
-  def styleByIndex(whichIndex: Int): CircleStyle = {
-    var fillModel: FillModel = null
-    val fillModels = this.contextInfo.fillModels
-    val strokeModels = this.contextInfo.strokeModels
-    if (fillModels.length > 0) {
-      val fillIndex = whichIndex % fillModels.length
-      fillModel = fillModels(fillIndex)
-    }
-    var strokeModel: StrokeModel = null
-    if (strokeModels.length > 0) {
-      val strokeIndex = whichIndex % strokeModels.length
-      strokeModel = strokeModels(strokeIndex)
-    }
-    return new CircleStyle(fillModel, strokeModel)
+  def shapeTransformed(whichShape: ShapeModel): ShapeModel = {
+    return this.shapeTransformer.transform(whichShape)
   }
 
   /**
-   * Parameter signature that Rx accepts
+   * Return a shape style according to a given index
    */
-  def svgByCircleAndStyle(whichCircleAndStyle: Tuple2[CircleModel, CircleStyle]): Element = {
-    return this.svgByCircleAndStyle(whichCircleAndStyle._1, whichCircleAndStyle._2)
+  def styleByIndex(whichIndex: Int): ShapeStyle = {
+    var fillModel: FillStyle = null
+    val fillStyles = this.contextInfo.fillStyles
+    val strokeStyles = this.contextInfo.strokeStyles
+    if (fillStyles.length > 0) {
+      val fillIndex = whichIndex % fillStyles.length
+      fillModel = fillStyles(fillIndex)
+    }
+    var strokeModel: StrokeStyle = null
+    if (strokeStyles.length > 0) {
+      val strokeIndex = whichIndex % strokeStyles.length
+      strokeModel = strokeStyles(strokeIndex)
+    }
+    return new ShapeStyle(fillModel, strokeModel)
+  }
+
+  def shapeKeyByIndex(whichIndex: Int): Int = {
+    val shapesSequence = this.contextInfo.shapesSequence
+    val shapeIndex = whichIndex % shapesSequence.length
+    return shapesSequence(shapeIndex)
+  }
+
+  def shapeByKey(whichKey: Int, whichShape: ShapeModel): ShapeModel = {
+    return whichKey match {
+      case contextInfo.CIRCLE => new CircleModel(whichShape.index, whichShape.cx, whichShape.cy, whichShape.r, whichShape.scaleFactor)
+      case numberOfPolygonSides: Int => new PolygonModel(whichShape.index, whichShape.cx, whichShape.cy, whichShape.r, whichShape.scaleFactor, numberOfPolygonSides, polygonPointsHelper.pointsFor(whichShape, numberOfPolygonSides))
+    }
   }
 
   /**
-   * Maps a circle style and model to a corresponding svg element
+   * Parameter signatures that Rx accepts
    */
-  def svgByCircleAndStyle(whichCircle: CircleModel, whichStyle: CircleStyle): Element = {
-    println(whichCircle)
-    val svg: Element = this.outputDoc.createElement("circle")
-    svg.attr("cx", whichCircle.cx.toString())
-    svg.attr("cy", whichCircle.cy.toString())
-    svg.attr("r", whichCircle.r.toString())
+  def svgByShapeAndStyle(whichShapeAndStyle: Tuple2[ShapeModel, ShapeStyle]): Element = {
+    return this.svgByShapeAndStyle(whichShapeAndStyle._1, whichShapeAndStyle._2)
+  }
+
+  def shapeByKey(whichShapeAndKey: Tuple2[Int, ShapeModel]): ShapeModel = {
+    return this.shapeByKey(whichShapeAndKey._1, whichShapeAndKey._2)
+  }
+
+  /**
+   * Maps a shape style and model to a corresponding svg element
+   */
+  def svgByShapeAndStyle(whichShape: ShapeModel, whichStyle: ShapeStyle): Element = {
+    println(whichShape)
+    var svgElement: Element = null
+    whichShape match {
+      case circle: CircleModel => {
+        svgElement = this.outputDoc.createElement("circle")
+        svgElement.attr("cx", circle.cx.toString())
+        svgElement.attr("cy", circle.cy.toString())
+        svgElement.attr("r", circle.r.toString())
+      }
+      case polygon: PolygonModel => {
+        def svgFormattedPoints(forWhichPoints: List[Tuple2[Float, Float]]) = {
+          val simplyCommaSeparated = forWhichPoints.map((point: Tuple2[Float, Float]) => {
+            var csv = s"${point._1}, ${point._2}"
+            if (!point.equals(forWhichPoints(forWhichPoints.length - 1))) csv = csv +  ","
+            csv
+          }).mkString
+          simplyCommaSeparated
+        }
+        svgElement = this.outputDoc.createElement("polygon")
+        svgElement.attr("points", svgFormattedPoints(polygon.points))
+      }
+    }
     if (whichStyle.fill != null) {
-      svg.attr("fill", whichStyle.fill.color)
-      svg.attr("fill-opacity", whichStyle.fill.opacity.toString)
+      svgElement.attr("fill", whichStyle.fill.color)
+      svgElement.attr("fill-opacity", whichStyle.fill.opacity.toString)
     }
     else
-      svg.attr("fill", "none")
+      svgElement.attr("fill", "none")
     if (whichStyle.stroke != null) {
-      svg.attr("stroke", whichStyle.stroke.color)
-      svg.attr("stroke-opacity", whichStyle.stroke.opacity.toString)
-      svg.attr("stroke-width", whichStyle.stroke.strokeWidth.toString)
+      svgElement.attr("stroke", whichStyle.stroke.color)
+      svgElement.attr("stroke-opacity", whichStyle.stroke.opacity.toString)
+      svgElement.attr("stroke-width", whichStyle.stroke.strokeWidth.toString)
     }
-    svg.attr("z-index", (9999999 - whichCircle.index).toString())
-//    svg.attr("z-index", (whichCircle.index).toString())
-    svg.attr("id", "circle$whichCircle.index")
-    return svg
+    svgElement.attr("z-index", (9999999 - whichShape.index).toString())
+//    svgElement.attr("z-index", (whichShape.index).toString())
+    svgElement.attr("id", "shape$whichShape.index")
+    return svgElement
   }
 
   def appendToDoc(element: Element): Unit = {
-//    this.circlesContainer.appendChild(element)
     try {
-//      element.before(this.circlesContainer.child(0))
-      this.circlesContainer.child(0).before(element)
+      this.shapesContainer.child(0).before(element)
     }
     catch {
       case e: Exception => {
-        this.circlesContainer.appendChild(element)
+        this.shapesContainer.appendChild(element)
       }
     }
   }
@@ -292,7 +435,7 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
 //    def stripOutside(): Unit = {
 //      val ourGroupContainer = this.docInfo.outputDoc.select("#layer1")
 //      ourGroupContainer.empty()
-//      ourGroupContainer.add(this.docInfo.circlesContainer)
+//      ourGroupContainer.add(this.docInfo.shapesContainer)
 //    }
 //    stripOutside()
     val jpgConverter = new JPEGTranscoder()
@@ -313,50 +456,49 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
   def doOnStart(): Unit = {
 
     def initTransformer() = {
-      """
-      val basisCx = if (fromBasisObject.hasAttr("sodipodi:cx")) fromBasisObject.attr("sodipodi:cx").toFloat else fromBasisObject.attr("cx").toFloat
-      val basisCy = if (fromBasisObject.hasAttr("sodipodi:cy")) fromBasisObject.attr("sodipodi:cy").toFloat else fromBasisObject.attr("cy").toFloat
-      val basisR = if (fromBasisObject.hasAttr("sodipodi:rx")) fromBasisObject.attr("sodipodi:rx").toFloat else fromBasisObject.attr("r").toFloat
-
-      // initialize linear mapping helper object with values from the base template
-      val figuredScalar = basisR / this.lastCircle.r
-      this.circleTransformer.scalar = figuredScalar
-      this.circleTransformer.cxPlus = basisCx - (this.lastCircle.cx * figuredScalar)
-      this.circleTransformer.cyPlus = basisCy - (this.lastCircle.cy * figuredScalar)
-      """
       // ASSUMPTION: height < width
-      val figuredScalar = this.contextInfo.height / 2 / this.lastCircle.r
-      this.circleTransformer.scalar = figuredScalar
-      this.circleTransformer.cxPlus = this.contextInfo.width / 2 - (this.lastCircle.cx * figuredScalar)
-      this.circleTransformer.cyPlus = this.contextInfo.height / 2 - (this.lastCircle.cy * figuredScalar)
+      val figuredScalar = this.contextInfo.height / 2 / this.lastShape.r
+      this.shapeTransformer.scalar = figuredScalar
+      this.shapeTransformer.cxPlus = this.contextInfo.width / 2 - (this.lastShape.cx * figuredScalar)
+      this.shapeTransformer.cyPlus = this.contextInfo.height / 2 - (this.lastShape.cy * figuredScalar)
     }
 
     def createOutputSvg(): Unit = {
-      //  val circlesContainer = this.outputDoc.createElement("g")
+      //  val shapesContainer = this.outputDoc.createElement("g")
       this.outputDoc = Jsoup.parse("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><svg xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:svg=\"http://www.w3.org/2000/svg\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">",  "", Parser.xmlParser())
       this.outputDoc.select("svg").first().attr("width", this.contextInfo.width.toString)
       this.outputDoc.select("svg").first().attr("height", this.contextInfo.height.toString)
-      // and create our circles container from it
-      this.circlesContainer = this.outputDoc.createElement("g")
-      this.outputDoc.select("svg").first().appendChild(this.circlesContainer)
+      def backgroundHack(): Element = {
+        val rect = this.outputDoc.createElement("rect")
+        rect.attr("x", "0")
+        rect.attr("y", "0")
+        rect.attr("width", this.contextInfo.width.toString)
+        rect.attr("height", this.contextInfo.height.toString)
+        rect.attr("fill", this.contextInfo.background)
+        return rect
+      }
+      this.outputDoc.select("svg").first().appendChild(backgroundHack())
+      // and create our shapes container from it
+      this.shapesContainer = this.outputDoc.createElement("g")
+      this.outputDoc.select("svg").first().appendChild(this.shapesContainer)
 
     }
 
-    def initFirstAndLastCircle() = {
-      this.startingCircle = new CircleModel(0,
-        0.5f / this.contextInfo.circlesAlongX,
+    def initFirstAndLastShape() = {
+      this.startingShape = new ShapeModel(0,
+        0.5f / this.contextInfo.shapesAlongX,
         0.5f,
-        0.5f / this.contextInfo.circlesAlongX,
+        0.5f / this.contextInfo.shapesAlongX,
         1)
-      this.lastCircle = new CircleModel(-1, 0.5f, 0.5f, 0.5f, -1)
+      this.lastShape = new ShapeModel(-1, 0.5f, 0.5f, 0.5f, -1)
     }
 
     def applyGroupMatrixTransform() = {
-      this.matrixApplier.applyToElement(this.circlesContainer)
+      this.matrixApplier.applyToElement(this.shapesContainer)
     }
 
     createOutputSvg()
-    initFirstAndLastCircle()
+    initFirstAndLastShape()
     initTransformer()
     applyGroupMatrixTransform()
 
@@ -380,7 +522,9 @@ class GeoPicassoMetaRx {
   contextInfoStream.doOnEach((contextInfo: JSONObject) => {
     new GeoPicassoRx(contextInfo)
 //    Observable.
-  }).subscribe()
+  })
+  .onBackpressureBuffer
+  .subscribe()
 }
 
 object GeoPicassoRx {
