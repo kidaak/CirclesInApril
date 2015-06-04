@@ -19,74 +19,62 @@ name hashing:
 1 items
 0 -> true
 products:
-50 items
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/CirclesInApril$.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/CirclesInApril.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$Circle$.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$Circle.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$CircleGenerator.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$ColorResolver.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$19$$anonfun$apply$1.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$19.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$20.class
+47 items
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$$anonfun$generateDefault$1.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$$anonfun$generateDefault$2.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$$anonfun$generateDefault$3.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromJson$$anonfun$fillStyles$1.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromJson$$anonfun$shapesSequence$1.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromJson$$anonfun$strokeStyles$1.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromJson$.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromSvg$.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/FillStyle$.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/FillStyle.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$16$$anonfun$apply$1.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$16.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$17.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$1.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$10.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$11.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$12.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$13.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$14.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$15.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$16.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$17.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$18.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$2.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$3.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$4.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$5.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$6.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$7.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$8.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$9.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$CircleModel$.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$CircleModel.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$FillStyle$.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$FillStyle.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$PolygonModel$.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$PolygonModel.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeModel.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeStyle$.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeStyle.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$StrokeStyle$.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$StrokeStyle.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$contextInfo$$anonfun$1.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$contextInfo$$anonfun$7.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$contextInfo$$anonfun$8.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$contextInfo$.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$matrixApplier$.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$$anonfun$pointsFor$1.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$$anonfun$pointsFor$2.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$shapeTransformer$.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx.class
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/Testing.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/StrokeStyle$.class
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/StrokeStyle.class
 binary dependencies:
-15 items
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> /home/ben/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> /home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> /usr/lib/jvm/java-7-oracle/jre/lib/rt.jar
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /home/ben/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /usr/lib/jvm/java-7-oracle/jre/lib/rt.jar
+6 items
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-transcoder/jars/batik-transcoder-1.7.jar
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/.ivy2/cache/org.json/json/jars/json-20140107.jar
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/lib/rxscala_2.11-0.24.1.jar
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/Minify.class
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /usr/lib/jvm/java-7-oracle/jre/lib/rt.jar
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> /home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> /usr/lib/jvm/java-7-oracle/jre/lib/rt.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -96,7 +84,8 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-0 items
+1 items
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -104,220 +93,56 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-50 items
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> CirclesInApril
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> CirclesInApril$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> GeoPicasso
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> GeoPicasso$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> GeoPicasso$Circle
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> GeoPicasso$Circle$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> GeoPicasso$CircleGenerator
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> GeoPicasso$ColorResolver
+47 items
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$$anonfun$generateDefault$1
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$$anonfun$generateDefault$2
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$$anonfun$generateDefault$3
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$fromJson$
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$fromJson$$anonfun$fillStyles$1
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$fromJson$$anonfun$shapesSequence$1
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$fromJson$$anonfun$strokeStyles$1
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo$fromSvg$
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> FillStyle
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> FillStyle$
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoMetaRx
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoMetaRx$$anonfun$19
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoMetaRx$$anonfun$19$$anonfun$apply$1
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoMetaRx$$anonfun$20
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoMetaRx$$anonfun$16
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoMetaRx$$anonfun$16$$anonfun$apply$1
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoMetaRx$$anonfun$17
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$1
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$10
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$11
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$12
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$13
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$14
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$15
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$16
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$17
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$18
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$2
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$3
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$4
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$5
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$6
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$7
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$8
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$$anonfun$9
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$CircleModel
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$CircleModel$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$FillStyle
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$FillStyle$
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$PolygonModel
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$PolygonModel$
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$ShapeModel
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$ShapeStyle
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$ShapeStyle$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$StrokeStyle
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$StrokeStyle$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$contextInfo$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$contextInfo$$anonfun$1
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$contextInfo$$anonfun$7
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$contextInfo$$anonfun$8
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$matrixApplier$
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$polygonPointsHelper$
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$polygonPointsHelper$$anonfun$pointsFor$1
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$polygonPointsHelper$$anonfun$pointsFor$2
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> GeoPicassoRx$shapeTransformer$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> Testing
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> StrokeStyle
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> StrokeStyle$
 used names:
-492 items
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> <init>
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> AnyRef
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> Array
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> CirclesInApril
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> Document
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> Double
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> Element
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> FILE_NAME
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> File
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> Function
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> Predef
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> PrintWriter
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> String
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> Unit
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> appendChild
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> close
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> createElement
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> createStartDocument
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> doc
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> drawShape
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> f
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> f_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> fromFunction
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> io
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> java
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> jsoup
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> nodes
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> org
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> println
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> saveDoc
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> savedDoc
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> scala
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> svg
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> toString
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> write
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> &&
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> *
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> +
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> -
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> /
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> <=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> <init>
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> ==
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> >=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> AbstractFunction3
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> AnyRef
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Array
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Boolean
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Circle
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> CircleGenerator
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> ClassTag
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> ColorResolver
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Document
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Element
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> FILE_NAME
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> File
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Float
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> GeoPicasso
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Int
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> None
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> NullPointerException
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Predef
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> PrintWriter
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Product
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> ScalaRunTime
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Serializable
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Statics
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> String
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> Unit
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _circlesAddedToDocument
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _circlesAddedToDocument_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _clt
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _ctro
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _hasNext
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _hasNext_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _i
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _i_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _lineWidthIndex
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _lineWidthIndex_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _maxLineWidth
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _maxLineWidth_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _next
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> _toString
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> addCircleToSvg
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> amount
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> andSaved
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> appendChild
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> apply
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> asInstanceOf
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> attr
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> before
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> circle
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> circleInLine
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> circleLargerThanPrevious
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> close
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> colorResolver
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> colorResolver_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> colors
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> createCircleLargerThan
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> createCircleToRightOf
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> createElement
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> createNextCircle
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> createStartDocument
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> cx
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> cx_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> cy
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> d
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> d_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> diameterLength
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> diameterLength_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> doc
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> doc_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> eq
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> executed
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> finalizeHash
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> first
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> firstColor
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> floatHash
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> floor
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> get
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> getNext
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> hasNext
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> init
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> io
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> isInstanceOf
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> java
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> jsoup
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> lastCircleCreated
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> lastCircleCreated_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> length
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> materializeClassTag
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> math
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> maxCircles
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> maxCircles_=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> mix
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> newCircle
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> nextCircle
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> nextColor
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> nodes
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> org
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> ourCircleGenerator
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> package
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> println
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> runtime
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> savedDoc
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> scala
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> scale
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> secondColor
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> select
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> shift
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> svg
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> thirdColor
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> toDouble
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> toString
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> typedProductIterator
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> while$1
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> width
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> withStandardColorResolver
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> withStandardStartDocument
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> write
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> ||
+329 items
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> !=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> %
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> &&
@@ -341,6 +166,7 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> Calendar
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> CircleModel
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> Codec
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ContextInfo
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> Date
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> Document
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> Element
@@ -377,6 +203,7 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ShapeModel
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ShapeStyle
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> SimpleDateFormat
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> Some
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> Source
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> Statics
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> String
@@ -440,11 +267,7 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> cyPlus
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> cyPlus_=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> cyTransform
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> desiredFinalCx
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> desiredFinalCy
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> desiredFinalLeft
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> desiredFinalRadius
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> desiredFinalTop
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> doOnCompleted
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> doOnEach
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> doOnStart
@@ -462,6 +285,7 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> fillStyles
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> fillsSerialized
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> finalizeHash
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> findFirstMatchIn
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> first
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> firstLargerShape
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> firstShape
@@ -473,6 +297,9 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> format
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> fromAngle
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> fromFile
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> fromJson
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> fromSvg
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> generateDefault
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> generateFolderName
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> get
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> getBytes
@@ -481,8 +308,10 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> getInt
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> getJSONArray
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> getJSONObject
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> getOrElse
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> getString
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> getTime
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> group
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> height
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> i
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> image
@@ -498,6 +327,8 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> java
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> jpgConverter
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> json
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> jsonSource
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> jsonSource_=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> jsoup
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> lang
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> lastShape
@@ -505,7 +336,7 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> lastShape_=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> left
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> leftOffset
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> leftPercentWise
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> left_=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> length
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> mainStream
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> map
@@ -545,6 +376,7 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> r
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> rTransform
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> rect
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> regexParsed
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> relX
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> relY
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> requestsSerialized
@@ -560,6 +392,7 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> scalar_=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> scale
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> scaleFactor
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> scale_=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> scaledAndTransformedCx
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> scaledAndTransformedCy
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> scaledCx
@@ -594,6 +427,7 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> styleByIndex
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> subscribe
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> svgByShapeAndStyle
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> svgDoc
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> svgElement
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> svgFormattedPoints
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> svgInput
@@ -610,10 +444,12 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> today
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> top
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> topOffset
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> topPercentWise
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> top_=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> transcode
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> transcoder
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> transform
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> transformAttr
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> transformRegex
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> transformVal
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> typedProductIterator
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> unary_!
@@ -630,140 +466,102 @@ used names:
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> while$1
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> wholeFilename
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> width
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> withJsonSource
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> withNumberOfSides
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> write
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> xmlParser
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> zip
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> ||
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> <init>
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> AnyRef
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> Predef
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> Testing
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> _
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> augmentString
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> findAllIn
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> println
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> r
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> s
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> scala
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> toList
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> x
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> y
 product stamps:
-50 items
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/CirclesInApril$.class -> lastModified(1433384166000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/CirclesInApril.class -> lastModified(1433384166000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$.class -> lastModified(1433384166000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$Circle$.class -> lastModified(1433384166000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$Circle.class -> lastModified(1433384166000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$CircleGenerator.class -> lastModified(1433384166000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso$ColorResolver.class -> lastModified(1433384166000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicasso.class -> lastModified(1433384166000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$19$$anonfun$apply$1.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$19.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$20.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$10.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$11.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$12.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$13.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$14.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$15.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$16.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$17.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$18.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$2.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$3.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$4.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$5.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$6.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$9.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$CircleModel$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$CircleModel.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$FillStyle$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$FillStyle.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$PolygonModel$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$PolygonModel.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeModel.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeStyle$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeStyle.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$StrokeStyle$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$StrokeStyle.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$contextInfo$$anonfun$1.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$contextInfo$$anonfun$7.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$contextInfo$$anonfun$8.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$contextInfo$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$matrixApplier$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$$anonfun$pointsFor$1.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$$anonfun$pointsFor$2.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$shapeTransformer$.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx.class -> lastModified(1433386338000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/Testing.class -> lastModified(1433384166000)
+47 items
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$$anonfun$generateDefault$1.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$$anonfun$generateDefault$2.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$$anonfun$generateDefault$3.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromJson$$anonfun$fillStyles$1.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromJson$$anonfun$shapesSequence$1.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromJson$$anonfun$strokeStyles$1.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromJson$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo$fromSvg$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/ContextInfo.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/FillStyle$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/FillStyle.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$16$$anonfun$apply$1.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$16.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx$$anonfun$17.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoMetaRx.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$1.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$10.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$11.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$12.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$13.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$14.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$15.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$2.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$3.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$4.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$5.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$6.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$7.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$8.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$$anonfun$9.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$CircleModel$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$CircleModel.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$PolygonModel$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$PolygonModel.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeModel.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeStyle$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$ShapeStyle.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$matrixApplier$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$$anonfun$pointsFor$1.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$$anonfun$pointsFor$2.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$polygonPointsHelper$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx$shapeTransformer$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/GeoPicassoRx.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/StrokeStyle$.class -> lastModified(1433449856000)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/StrokeStyle.class -> lastModified(1433449856000)
 source stamps:
-7 items
+3 items
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java -> hash(3167ec173654ac29c2fef8f0afd9c4959647fa84)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> hash(cd0e5f5cb575c6da44c4ea1a9ca00d4aac9ea510)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/DocViewer.scala -> hash(da39a3ee5e6b4b0d3255bfef95601890afd80709)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> hash(e13391f30d34d14885006c1ea929aa2e7abfa8cc)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> hash(128aecc859ab8858edf73547f444572bf48f0767)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> hash(18881656385834de1b7999d6756eb0ac16db51a2)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/testingPurposes.java -> hash(a8f30da151a25e97cdd58144edfcc0ed1b17ac68)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/RegTest.java -> hash(a56d772ded55636c3b7751c37c5ca918b0d6880a)
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> hash(c96d68d65e3d93f1d30ff86acb5c8c5edea0973d)
 binary stamps:
-7 items
+6 items
 /home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-transcoder/jars/batik-transcoder-1.7.jar -> lastModified(1199875384000)
 /home/ben/.ivy2/cache/org.json/json/jars/json-20140107.jar -> lastModified(1389119762000)
 /home/ben/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar -> lastModified(1359333044000)
 /home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> lastModified(1424912463000)
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/lib/rxscala_2.11-0.24.1.jar -> lastModified(1429634516000)
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/Minify.class -> lastModified(1433384166000)
 /usr/lib/jvm/java-7-oracle/jre/lib/rt.jar -> lastModified(1429372918000)
 class names:
-7 items
-/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-transcoder/jars/batik-transcoder-1.7.jar -> org.apache.batik.transcoder.TranscoderOutput
+6 items
+/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-transcoder/jars/batik-transcoder-1.7.jar -> org.apache.batik.transcoder.TranscoderInput
 /home/ben/.ivy2/cache/org.json/json/jars/json-20140107.jar -> org.json.JSONArray
-/home/ben/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar -> org.jsoup.Jsoup
-/home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> scala.Serializable
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/lib/rxscala_2.11-0.24.1.jar -> rx.lang.scala.Observable$
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes/Minify.class -> Minify
+/home/ben/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar -> org.jsoup.select.Elements
+/home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar -> scala.runtime.AbstractFunction5
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/lib/rxscala_2.11-0.24.1.jar -> rx.lang.scala.Observable
 /usr/lib/jvm/java-7-oracle/jre/lib/rt.jar -> java.lang.Object
 internal apis:
-7 items
+3 items
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTbxam2Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDFn7Bc2VKwpwv748K/ZxJWWR/qE
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCl2ETkAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cA1KLBJ0AAZub3RpZnlzcQB+AAxhZnjJdAAEd2FpdHNxAH4ADI4r6UV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMU/UZuHQADGZyb21GdW5jdGlvbnNxAH4ADH1BPMp0ABNjcmVhdGVTdGFydERvY3VtZW50c3EAfgAM1wgzYnQABmVxdWFsc3NxAH4ADPNoH5N0AAlGSUxFX05BTUVzcQB+AAzrQ/TKdAAMYXNJbnN0YW5jZU9mc3EAfgAMbfrUM3QAAWZzcQB+AAx+cYmRdAAMc3luY2hyb25pemVkc3EAfgAM3Ds2BnQADSRpc0luc3RhbmNlT2ZzcQB+AAyjYrfDdAAHc2F2ZURvY3NxAH4ADH9Wy1l0AARtYWluc3EAfgAMT3Hm33QAA2RvY3NxAH4ADAZWEux0AAlub3RpZnlBbGxzcQB+AAx4zTRodAAMaXNJbnN0YW5jZU9mc3EAfgAMnHMVnXQABjxpbml0PnNxAH4ADCdZ6590AAI9PXNxAH4ADBtdKXJ0AAVjbG9uZXNxAH4ADH5elKl0AAh0b1N0cmluZ3NxAH4ADGxb0bR0AAIhPXNxAH4ADAUoExZ0AAhnZXRDbGFzc3NxAH4ADJz1BW50AAJuZXNxAH4ADJPc5cJ0AAJlcXNxAH4ADJ+hjMB0AA5DaXJjbGVzSW5BcHJpbHNxAH4ADBPi/Y50AAIjI3NxAH4ADEDbS650AAhmaW5hbGl6ZXNxAH4ADEcbod90AAlkcmF3U2hhcGVzcQB+AAxU6uNzdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBReHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AD91cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AaAFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AUUwACWluaGVyaXRlZHEAfgBRTAAHcGFyZW50c3EAfgBReHEAfgBvc3EAfgBoAXVxAH4ATAAAAABwc3EAfgBoAXVxAH4ATAAAAABwc3EAfgBoAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AbnQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AbnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwA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
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/DocViewer.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTbxam2Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFNo5o+5ea0sNMlW/75VgGJCv2AcJ
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBmOt0OAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAR3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHvO49l0AAZub3RpZnlzcQB+AAyOq5QodAAHdW5hcHBseXNxAH4ADI3heJh0AAdjdXJyaWVkc3EAfgAMTGzjfHQAGXdpdGhTdGFuZGFyZFN0YXJ0RG9jdW1lbnRzcQB+AAzTaw+gdAANY29sb3JSZXNvbHZlcnNxAH4ADIL0hmJ0AAdnZXROZXh0c3EAfgAMWGvow3QABHdhaXRzcQB+AAySPvkRdAAGQ2lyY2xlc3EAfgAMXSgNdXQADmNvcHkkZGVmYXVsdCQyc3EAfgAM5KPisnQADSRhc0luc3RhbmNlT2ZzcQB+AAyYKemcdAAKdGhpcmRDb2xvcnNxAH4ADBv0eQJ0AA9DaXJjbGVHZW5lcmF0b3JzcQB+AAzAMW0ZdAAMcHJvZHVjdEFyaXR5c3EAfgAMwJ+iy3QAE2NyZWF0ZVN0YXJ0RG9jdW1lbnRzcQB+AAyrYLHKdAAGZXF1YWxzc3EAfgAMDNGPMXQACUZJTEVfTkFNRXNxAH4ADMXNvCJ0AAJjeHNxAH4ADJ9h6xl0AAxhc0luc3RhbmNlT2ZzcQB+AAxRW68HdAAOZGlhbWV0ZXJMZW5ndGhzcQB+AAyxvRUSdAAIX2hhc05leHRzcQB+AAwrL9iHdAAMc3luY2hyb25pemVkc3EAfgAM27+ZY3QABXNoaWZ0c3EAfgAMlBbl5HQADSRpc0luc3RhbmNlT2ZzcQB+AAxnSjJ5dAACX2lzcQB+AAwuSQ/rdAAGdHVwbGVkc3EAfgAMxABQ1nQAEGNyZWF0ZU5leHRDaXJjbGVzcQB+AAzGM8LddAAIY2FuRXF1YWxzcQB+AAz+182pdAALc2Vjb25kQ29sb3JzcQB+AAw6NpJLdAAEbWFpbnNxAH4ADOZtQRl0AA1wcm9kdWN0UHJlZml4c3EAfgAMnX963XQACmZpcnN0Q29sb3JzcQB+AAy2XPx1dAADZG9jc3EAfgAMDJfmSXQACW5vdGlmeUFsbHNxAH4ADP/HORh0AAtyZWFkUmVzb2x2ZXNxAH4ADDlhevR0AAJjeXNxAH4ADG+q6bx0AAxpc0luc3RhbmNlT2ZzcQB+AAyrhXyDdAAXX2NpcmNsZXNBZGRlZFRvRG9jdW1lbnRzcQB+AAyn3erDdAAGY29sb3Jzc3EAfgAMELa7d3QABjxpbml0PnNxAH4ADI0JnPJ0AA5hZGRDaXJjbGVUb1N2Z3NxAH4ADNjhSUJ0AAhleGVjdXRlZHNxAH4ADKez+JN0AAVhcHBseXNxAH4ADJFFPRt0ABl3aXRoU3RhbmRhcmRDb2xvclJlc29sdmVyc3EAfgAMDUHlxXQAAj09c3EAfgAMvoazlHQAFmNyZWF0ZUNpcmNsZUxhcmdlclRoYW5zcQB+AAyx/Pd8dAAFY2xvbmVzcQB+AAw2DX7udAANX21heExpbmVXaWR0aHNxAH4ADBcfLDl0AA5jb3B5JGRlZmF1bHQkM3NxAH4ADJIT7Qd0AAptYXhDaXJjbGVzc3EAfgAMRJikoHQABGNvcHlzcQB+AAxFnQiVdAAVY3JlYXRlQ2lyY2xlVG9SaWdodE9mc3EAfgAMf6xfmnQACHRvU3RyaW5nc3EAfgAMGZaP0XQAAiE9c3EAfgAMg/Ek+XQACGFuZFNhdmVkc3EAfgAMNHu0ZXQACGdldENsYXNzc3EAfgAMr9vUYXQADmNvcHkkZGVmYXVsdCQxc3EAfgAMchMRu3QAD19saW5lV2lkdGhJbmRleHNxAH4ADLG3PJh0AApHZW9QaWNhc3Nvc3EAfgAMRIdNY3QAAm5lc3EAfgAMbw5W5XQABXdpZHRoc3EAfgAMQOUMpnQABGluaXRzcQB+AAw1WSbYdAAHaGFzTmV4dHNxAH4ADG1Kye10ABFsYXN0Q2lyY2xlQ3JlYXRlZHNxAH4ADFyxhjN0AA1Db2xvclJlc29sdmVyc3EAfgAM6o6iy3QAAmVxc3EAfgAMk1eMh3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADNK3JKN0AAIjI3NxAH4ADArKoP90AAhmaW5hbGl6ZXNxAH4ADI/BFrt0AA5wcm9kdWN0RWxlbWVudHNxAH4ADOcg5UR0AAhoYXNoQ29kZXNxAH4ADNBBJjF0AAFkc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ApXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgCBdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+ALwBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AKVMAAlpbmhlcml0ZWRxAH4ApUwAB3BhcmVudHNxAH4ApXhxAH4Aw3NxAH4AvAF1cQB+AKAAAAAAcHNxAH4AvAF1cQB+AKAAAAAAcHNxAH4AvAF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AMJ0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AMJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+ANt0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ANxzcQB+AM90AANBbnlzcQB+ANNzcQB+ANZ1cQB+ANkAAAACc3EAfgDbdAAFc2NhbGFxAH4A4nBwc3EAfgCicQB+AK91cQB+ALAAAAAAc3EAfgCyAHQACkdlb1BpY2Fzc291cQB+ALQAAAAAfnEAfgC2dAAGTW9kdWxldXEAfgC6AAAAAHNxAH4AvAFxAH4AxHBzcQB+ALwBc3EAfgDGc3EAfgC8AXVxAH4AoAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ApnEAfgCvdXEAfgCwAAAAAHNxAH4AsgBxAH4AR3VxAH4AtAAAAABzcQB+AM90AARVbml0c3EAfgDTc3EAfgDWdXEAfgDZAAAAAnNxAH4A23EAfgDpcQB+AOJ1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgD4eHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgC3dAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgDQWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgDCc3EAfgDPdAAFQXJyYXlxAH4BAHVxAH4AzQAAAAFzcQB+AM90AAZTdHJpbmdzcQB+ANNzcQB+ANZ1cQB+ANkAAAADc3EAfgDbcQB+AN5zcQB+ANtxAH4A4HEAfgDicHNxAH4AvAF1cQB+AKAAAAAAcHNxAH4AvAF1cQB+AM0AAAACc3EAfgDPcQB+ANJxAH4BGnNxAH4Az3EAfgDkcQB+AQBwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFNvFqbZnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFQvaG9tZS9iZW4vUHJvZ3JhbW1pbmcvU2NhbGFHZW5lcmFsV29ya3NwYWNlL0NpcmNsZXNpbkFwcmlsL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABThM5HzDTTRSIUAbB6pKaouer+ozA==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTcBEy6J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDFn7Bc2VKwpwv748K/ZxJWWR/qE
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/RegTest.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTcBEy6J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKVtdy3tVWNsO3dRw3xcqRiw1ogK
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAH8lPCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAe3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cP7ziEN0AA9zaGFwZUtleUJ5SW5kZXhzcQB+AAyNXl8LdAAIc2NhbGVkQ3lzcQB+AAz2tsbddAAKU2hhcGVTdHlsZXNxAH4ADHSEma90AAZub3RpZnlzcQB+AAydsioRdAAJRmlsbFN0eWxlc3EAfgAMNdwhWXQAB3VuYXBwbHlzcQB+AAz97WgbdAAHY3VycmllZHNxAH4ADFbROy10AAxzdHlsZUJ5SW5kZXhzcQB+AAwWyVJOdAALU3Ryb2tlU3R5bGVzcQB+AAyRp8eXdAAGQ0lSQ0xFc3EAfgAMEGShlnQABG5hbWVzcQB+AAyPMA5jdAAJZG9PblN0YXJ0c3EAfgAMOlbYgnQAEXN0cm9rZXNTZXJpYWxpemVkc3EAfgAM416oBHQABHdhaXRzcQB+AAxm+WFmdAALQ2lyY2xlTW9kZWxzcQB+AAzUpLPZdAAOY29weSRkZWZhdWx0JDJzcQB+AAyKa4mpdAANJGFzSW5zdGFuY2VPZnNxAH4ADD5jJ1t0AAZkb2NUYWdzcQB+AAyLXzADdAALc2NhbGVGYWN0b3JzcQB+AAycjzFSdAAOY29weSRkZWZhdWx0JDVzcQB+AAydJjxsdAAGU1FVQVJFc3EAfgAMzARZsHQAEHNoYXBlVHJhbnNmb3JtZXJzcQB+AAwjIegCdAATcG9seWdvblBvaW50c0hlbHBlcnNxAH4ADA6AqN50AAxwcm9kdWN0QXJpdHlzcQB+AAzQNJaYdAAGZXF1YWxzc3EAfgAM5pfPznQACm1haW5TdHJlYW1zcQB+AAzA5xSxdAAKYmFja2dyb3VuZHNxAH4ADIoSL/J0AAJjeHNxAH4ADIu3p610AAVzY2FsZXNxAH4ADM0RDEF0ABJnZW5lcmF0ZUZvbGRlck5hbWVzcQB+AAy499gudAAMUG9seWdvbk1vZGVsc3EAfgAMUe3FkHQAEEdlb1BpY2Fzc29NZXRhUnhzcQB+AAwh3dNcdAAGc3Ryb2tlc3EAfgAM8TDT+HQADW1hdHJpeEFwcGxpZXJzcQB+AAwxjsQAdAAMYXNJbnN0YW5jZU9mc3EAfgAMEWIUlnQACHNjYWxlZEN4c3EAfgAMiFyjmXQAC2N4VHJhbnNmb3Jtc3EAfgAMnZ0TwHQADHN5bmNocm9uaXplZHNxAH4ADPUdzuV0AARsZWZ0c3EAfgAMFb6Uw3QAEHNoYXBlc1NlcmlhbGl6ZWRzcQB+AAzW3vI0dAANJGlzSW5zdGFuY2VPZnNxAH4ADERVT450AApsZWZ0T2Zmc2V0c3EAfgAM/DYjv3QAC2N5VHJhbnNmb3Jtc3EAfgAMs2araHQABmhlaWdodHNxAH4ADEgrW3R0AAdzYXZlSnBnc3EAfgAMGOklhHQABnR1cGxlZHNxAH4ADMT+vul0AApmaWxsU3R5bGVzc3EAfgAM3y9jbXQADHRyYW5zZm9ybVZhbHNxAH4ADAGx+3Z0AAhjYW5FcXVhbHNxAH4ADOmVji10ABJzdmdCeVNoYXBlQW5kU3R5bGVzcQB+AAyxNaYAdAAHc2F2ZURvY3NxAH4ADPUO2gJ0AAtjcmVhdGVQb2ludHNxAH4ADOOoZ3J0AA5jb3B5JGRlZmF1bHQkNHNxAH4ADJcFuQp0AARtYWluc3EAfgAMP00cTnQABWNvbG9yc3EAfgAMGz6TL3QACW91dHB1dERvY3NxAH4ADF64gqx0AA1wcm9kdWN0UHJlZml4c3EAfgAMD/WWhHQAEWNvbnRleHRJbmZvU3RyZWFtc3EAfgAMt0AmaXQACm51bU9mU2lkZXNzcQB+AAzZ35yNdAAJbm90aWZ5QWxsc3EAfgAMBhbqMnQAC3JlYWRSZXNvbHZlc3EAfgAMuQIue3QAAmN5c3EAfgAM4pL09HQAClNoYXBlTW9kZWxzcQB+AAw4ZKLzdAAPc2hhcGVzQ29udGFpbmVyc3EAfgAMo54xRnQADGlzSW5zdGFuY2VPZnNxAH4ADEzShN50AAdzYXZlUG5nc3EAfgAMZ5IHCXQAC2RvY0ZpbGVuYW1lc3EAfgAMj/DmMnQABnNjYWxhcnNxAH4ADFZd5ft0ABZzY2FsZWRBbmRUcmFuc2Zvcm1lZEN5c3EAfgAMwSgcPnQABjxpbml0PnNxAH4ADGtrojt0AAZwb2ludHNzcQB+AAx6K9FhdAAFYXBwbHlzcQB+AAxTbij8dAAQc2hhcGVUcmFuc2Zvcm1lZHNxAH4ADF1nTcR0AA9sZWZ0UGVyY2VudFdpc2VzcQB+AAxub4AxdAAMc2hhcGVzQWxvbmdYc3EAfgAMXooMFHQADnNoYXBlc1NlcXVlbmNlc3EAfgAM+xIdj3QAAj09c3EAfgAM2dS9k3QABGZpbGxzcQB+AAx0uMW/dAAIVFJJQU5HTEVzcQB+AAzlbNuadAAFY2xvbmVzcQB+AAzp9jwSdAASZGVzaXJlZEZpbmFsUmFkaXVzc3EAfgAMM33bxHQADEdlb1BpY2Fzc29SeHNxAH4ADDZ9jt10AA5jb3B5JGRlZmF1bHQkN3NxAH4ADF5itxV0AA50b3BQZXJjZW50V2lzZXNxAH4ADIF9URN0AApzaGFwZUJ5S2V5c3EAfgAMV9hdJnQACnJUcmFuc2Zvcm1zcQB+AAzcQZNPdAAOYXBwbHlUb0VsZW1lbnRzcQB+AAwqPjXcdAALc2hhcGVTdHJlYW1zcQB+AAzLtWEVdAAGY3hQbHVzc3EAfgAMCyH2iHQAC2FwcGVuZFRvRG9jc3EAfgAMLNzUcXQADmNvcHkkZGVmYXVsdCQzc3EAfgAMvYvnGXQABGNvcHlzcQB+AAx0ChJsdAAIZGlhbWV0ZXJzcQB+AAwVYBo/dAAIdG9TdHJpbmdzcQB+AAzmk76wdAANc3RhcnRpbmdTaGFwZXNxAH4ADNqqSFJ0AAl0b3BPZmZzZXRzcQB+AAwxXu3ddAAJbmV4dFNoYXBlc3EAfgAMEv9113QAAiE9c3EAfgAMgurSXnQACWxhc3RTaGFwZXNxAH4ADMx8y1t0AAdvcGFjaXR5c3EAfgAMDVLC93QABmN5UGx1c3NxAH4ADBozgzd0AAhnZXRDbGFzc3NxAH4ADLmlo2d0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADBMtvrV0AAFyc3EAfgAMipbiHHQAFnNjYWxlZEFuZFRyYW5zZm9ybWVkQ3hzcQB+AAx3TwxBdAAPZmlsbHNTZXJpYWxpemVkc3EAfgAM8IlapnQAC2NvbnRleHRJbmZvc3EAfgAMGW9Q4nQADHN0cm9rZVN0eWxlc3NxAH4ADD6oeJR0AA5jb3B5JGRlZmF1bHQkNnNxAH4ADJRdONp0AAlwb2ludHNGb3JzcQB+AAwGJL2AdAACbmVzcQB+AAwyJa14dAAPYmFzZURvY0ZpbGVuYW1lc3EAfgAMZ+1QJ3QACXRyYW5zZm9ybXNxAH4ADIxrYgJ0AAV3aWR0aHNxAH4ADPnDhwd0AAN0b3BzcQB+AAzMs3d2dAACZXFzcQB+AAyWO/SIdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMqYjUdHQAC3N0cm9rZVdpZHRoc3EAfgAMQ4qHInQAAiMjc3EAfgAMVOxojnQACGZpbmFsaXplc3EAfgAMB9+y5HQABWluZGV4c3EAfgAMb7AwnXQADnByb2R1Y3RFbGVtZW50c3EAfgAMLNlgqHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4BDXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgCxdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+ASQBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AQ1MAAlpbmhlcml0ZWRxAH4BDUwAB3BhcmVudHNxAH4BDXhxAH4BK3NxAH4BJAF1cQB+AQgAAAAAcHNxAH4BJAF1cQB+AQgAAAAAcHNxAH4BJAF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ASp0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ASpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AUN0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AURzcQB+ATd0AANBbnlzcQB+ATtzcQB+AT51cQB+AUEAAAACc3EAfgFDdAAFc2NhbGFxAH4BSnBwc3EAfgEKcQB+ARd1cQB+ARgAAAAAc3EAfgEaAHEAfgBNdXEAfgEcAAAAAHEAfgEgdXEAfgEiAAAAAHNxAH4BJAFxAH4BLHBzcQB+ASQBc3EAfgEuc3EAfgEkAXVxAH4BCAAAAABwc3EAfgEkAXVxAH4BCAAAAABwc3EAfgEkAXVxAH4BNQAAAAJzcQB+ATdxAH4BOnNxAH4BO3NxAH4BPnVxAH4BQQAAAANzcQB+AUNxAH4BRnNxAH4BQ3EAfgFIcQB+AUpzcQB+ATdxAH4BTHNxAH4BO3NxAH4BPnVxAH4BQQAAAAJzcQB+AUNxAH4BUXEAfgFKcHBzcQB+AQpxAH4BF3VxAH4BGAAAAABzcQB+ARoAdAAMR2VvUGljYXNzb1J4dXEAfgEcAAAAAH5xAH4BHnQABk1vZHVsZXVxAH4BIgAAAABzcQB+ASQBcQB+ASxwc3EAfgEkAXNxAH4BLnNxAH4BJAF1cQB+AQgAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AQ5xAH4BF3VxAH4BGAAAAABzcQB+ARoAcQB+AHl1cQB+ARwAAAAAc3EAfgE3dAAEVW5pdHNxAH4BO3NxAH4BPnVxAH4BQQAAAAJzcQB+AUNxAH4BUXEAfgFKdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4BeXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4BH3QABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4BOFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4BKnNxAH4BN3QABUFycmF5cQB+AYF1cQB+ATUAAAABc3EAfgE3dAAGU3RyaW5nc3EAfgE7c3EAfgE+dXEAfgFBAAAAA3NxAH4BQ3EAfgFGc3EAfgFDcQB+AUhxAH4BSnBzcQB+ASQBdXEAfgEIAAAAAHBzcQB+ASQBdXEAfgE1AAAAAnNxAH4BN3EAfgE6cQB+AZtzcQB+ATdxAH4BTHEAfgGBcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTbx7vSp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABUL2hvbWUvYmVuL1Byb2dyYW1taW5nL1NjYWxhR2VuZXJhbFdvcmtzcGFjZS9DaXJjbGVzaW5BcHJpbC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUEorsyFmriFjt9zVH9ERXK/SPB2c=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAzTl07AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cEPgYQ90AAZub3RpZnlzcQB+AAwIEwr1dAABc3NxAH4ADJ8/1mV0AAF4c3EAfgAMg90MvHQABHdhaXRzcQB+AAwig5HVdAANJGFzSW5zdGFuY2VPZnNxAH4ADFwLbGN0AAZlcXVhbHNzcQB+AAzU44CWdAABeXNxAH4ADMYiePV0AAxhc0luc3RhbmNlT2ZzcQB+AAw5hx1GdAAMc3luY2hyb25pemVkc3EAfgAMisawBXQADSRpc0luc3RhbmNlT2ZzcQB+AAyNX5ktdAAJbm90aWZ5QWxsc3EAfgAMX2e2SHQADGlzSW5zdGFuY2VPZnNxAH4ADGweFhx0AAY8aW5pdD5zcQB+AAzD7xd9dAACPT1zcQB+AAzRY3q3dAAFY2xvbmVzcQB+AAyE3ZVrdAABX3NxAH4ADMCth2l0AAh0b1N0cmluZ3NxAH4ADKIXr0h0AAIhPXNxAH4ADKRiH3Z0AAhnZXRDbGFzc3NxAH4ADEuBl010AAFyc3EAfgAM/QxC2HQAAm5lc3EAfgAMmbHMC3QAAmVxc3EAfgAMQZZESXQAB1Rlc3RpbmdzcQB+AAxYlwJ9dAACIyNzcQB+AAxaPe8FdAAIZmluYWxpemVzcQB+AAxxsOZudAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+ADt1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AYgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AS0wACWluaGVyaXRlZHEAfgBLTAAHcGFyZW50c3EAfgBLeHEAfgBpc3EAfgBiAXVxAH4ARgAAAABwc3EAfgBiAXVxAH4ARgAAAABwc3EAfgBiAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AaHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnNxAH4AdXQAA0FueXNxAH4AeXNxAH4AfHVxAH4AfwAAAAJzcQB+AIF0AAVzY2FsYXEAfgCIcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTbxam2Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABUL2hvbWUvYmVuL1Byb2dyYW1taW5nL1NjYWxhR2VuZXJhbFdvcmtzcGFjZS9DaXJjbGVzaW5BcHJpbC90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUGIgWVjhYNN4beZnWdW6wrBbbUaI=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/testingPurposes.java -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTbxam2Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFKjzDaFRol6XzdWBRO38wO0bF6xo
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHADO5c4AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAf3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cP7ziEN0AA9zaGFwZUtleUJ5SW5kZXhzcQB+AAyNXl8LdAAIc2NhbGVkQ3lzcQB+AAzyD4FQdAAKU2hhcGVTdHlsZXNxAH4ADHKz3K10AAZub3RpZnlzcQB+AAwJ2QDGdAAJRmlsbFN0eWxlc3EAfgAMvELzxnQAB3VuYXBwbHlzcQB+AAy/Ct02dAAHY3VycmllZHNxAH4ADFbROy10AAxzdHlsZUJ5SW5kZXhzcQB+AAwWoFqJdAALU3Ryb2tlU3R5bGVzcQB+AAxm9RxzdAAGQ0lSQ0xFc3EAfgAM4IJX2HQABG5hbWVzcQB+AAyPMA5jdAAJZG9PblN0YXJ0c3EAfgAMTiBGJ3QAEXN0cm9rZXNTZXJpYWxpemVkc3EAfgAM42SQ4HQABHdhaXRzcQB+AAxm+WFmdAALQ2lyY2xlTW9kZWxzcQB+AAyijDAIdAAOY29weSRkZWZhdWx0JDJzcQB+AAwvlHTJdAANJGFzSW5zdGFuY2VPZnNxAH4ADD5jJ1t0AAZkb2NUYWdzcQB+AAyLXzADdAALc2NhbGVGYWN0b3JzcQB+AAycjzFSdAAOY29weSRkZWZhdWx0JDVzcQB+AAyGiIKOdAAGU1FVQVJFc3EAfgAMzARZsHQAEHNoYXBlVHJhbnNmb3JtZXJzcQB+AAwjIegCdAATcG9seWdvblBvaW50c0hlbHBlcnNxAH4ADOrQUqJ0AAxwcm9kdWN0QXJpdHlzcQB+AAw96lTIdAAGZXF1YWxzc3EAfgAM5pfPznQACm1haW5TdHJlYW1zcQB+AAwTzSBfdAAKYmFja2dyb3VuZHNxAH4ADIoSL/J0AAJjeHNxAH4ADMfMBdR0AAVzY2FsZXNxAH4ADM0RDEF0ABJnZW5lcmF0ZUZvbGRlck5hbWVzcQB+AAy499gudAAMUG9seWdvbk1vZGVsc3EAfgAMUe3FkHQAEEdlb1BpY2Fzc29NZXRhUnhzcQB+AAyo7lIydAAGc3Ryb2tlc3EAfgAM8TDT+HQADW1hdHJpeEFwcGxpZXJzcQB+AAywEaebdAALQ29udGV4dEluZm9zcQB+AAw24cpGdAAMYXNJbnN0YW5jZU9mc3EAfgAMEWIUlnQACHNjYWxlZEN4c3EAfgAMiFyjmXQAC2N4VHJhbnNmb3Jtc3EAfgAMRFxxT3QADHN5bmNocm9uaXplZHNxAH4ADD0DXNZ0AARsZWZ0c3EAfgAMxyS0wHQAEHNoYXBlc1NlcmlhbGl6ZWRzcQB+AAyiesnOdAANJGlzSW5zdGFuY2VPZnNxAH4ADERVT450AApsZWZ0T2Zmc2V0c3EAfgAM/DYjv3QAC2N5VHJhbnNmb3Jtc3EAfgAMOKEDhXQABmhlaWdodHNxAH4ADEgrW3R0AAdzYXZlSnBnc3EAfgAM1ZuSOnQABnR1cGxlZHNxAH4ADApq9810AApmaWxsU3R5bGVzc3EAfgAM3y9jbXQADHRyYW5zZm9ybVZhbHNxAH4ADHdesbx0AAhjYW5FcXVhbHNxAH4ADOmVji10ABJzdmdCeVNoYXBlQW5kU3R5bGVzcQB+AAyxNaYAdAAHc2F2ZURvY3NxAH4ADPUO2gJ0AAtjcmVhdGVQb2ludHNxAH4ADOOoZ3J0AA5jb3B5JGRlZmF1bHQkNHNxAH4ADJcFuQp0AARtYWluc3EAfgAM9DjRV3QABWNvbG9yc3EAfgAMGz6TL3QACW91dHB1dERvY3NxAH4ADFZyJJ90AA1wcm9kdWN0UHJlZml4c3EAfgAMD/WWhHQAEWNvbnRleHRJbmZvU3RyZWFtc3EAfgAMt0AmaXQACm51bU9mU2lkZXNzcQB+AAx/2ZiXdAAJbm90aWZ5QWxsc3EAfgAMk4AkqHQAC3JlYWRSZXNvbHZlc3EAfgAMuQIue3QAAmN5c3EAfgAM4pL09HQAClNoYXBlTW9kZWxzcQB+AAw4ZKLzdAAPc2hhcGVzQ29udGFpbmVyc3EAfgAMfXuYV3QADGlzSW5zdGFuY2VPZnNxAH4ADEzShN50AAdzYXZlUG5nc3EAfgAMZ5IHCXQAC2RvY0ZpbGVuYW1lc3EAfgAMj/DmMnQABnNjYWxhcnNxAH4ADFZd5ft0ABZzY2FsZWRBbmRUcmFuc2Zvcm1lZEN5c3EAfgAMHToudXQABjxpbml0PnNxAH4ADGtrojt0AAZwb2ludHNzcQB+AAxhrpqvdAAFYXBwbHlzcQB+AAxTbij8dAAQc2hhcGVUcmFuc2Zvcm1lZHNxAH4ADMvWSfd0AAxzaGFwZXNBbG9uZ1hzcQB+AAycc7radAAOc2hhcGVzU2VxdWVuY2VzcQB+AAy4i8ladAACPT1zcQB+AAwJn55LdAAEZmlsbHNxAH4ADGBu2fV0AAhUUklBTkdMRXNxAH4ADBse27p0AAVjbG9uZXNxAH4ADOn2PBJ0ABJkZXNpcmVkRmluYWxSYWRpdXNzcQB+AAwzfdvEdAAMR2VvUGljYXNzb1J4c3EAfgAMNn2O3XQADmNvcHkkZGVmYXVsdCQ3c3EAfgAMgX1RE3QACnNoYXBlQnlLZXlzcQB+AAwpMsutdAAKanNvblNvdXJjZXNxAH4ADFfYXSZ0AApyVHJhbnNmb3Jtc3EAfgAM3EGTT3QADmFwcGx5VG9FbGVtZW50c3EAfgAMKj413HQAC3NoYXBlU3RyZWFtc3EAfgAMzCyY3HQAD2dlbmVyYXRlRGVmYXVsdHNxAH4ADMu1YRV0AAZjeFBsdXNzcQB+AAwLIfaIdAALYXBwZW5kVG9Eb2NzcQB+AAzM+MIUdAAOY29weSRkZWZhdWx0JDNzcQB+AAxWap56dAAEY29weXNxAH4ADHQKEmx0AAhkaWFtZXRlcnNxAH4ADNzoczd0AAh0b1N0cmluZ3NxAH4ADOGHl0h0AAhmcm9tSnNvbnNxAH4ADOaTvrB0AA1zdGFydGluZ1NoYXBlc3EAfgAM2qpIUnQACXRvcE9mZnNldHNxAH4ADDFe7d10AAluZXh0U2hhcGVzcQB+AAxvqr2kdAACIT1zcQB+AAyC6tJedAAJbGFzdFNoYXBlc3EAfgAMnunOcXQAB29wYWNpdHlzcQB+AAwNUsL3dAAGY3lQbHVzc3EAfgAMz3/lE3QABnN2Z0RvY3NxAH4ADMreE990AAhnZXRDbGFzc3NxAH4ADEJs+KR0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADBMtvrV0AAFyc3EAfgAMipbiHHQAFnNjYWxlZEFuZFRyYW5zZm9ybWVkQ3hzcQB+AAybA9o3dAAPZmlsbHNTZXJpYWxpemVkc3EAfgAMZjTew3QADHN0cm9rZVN0eWxlc3NxAH4ADD6oeJR0AA5jb3B5JGRlZmF1bHQkNnNxAH4ADJRdONp0AAlwb2ludHNGb3JzcQB+AAzWBgKhdAACbmVzcQB+AAwyJa14dAAPYmFzZURvY0ZpbGVuYW1lc3EAfgAMZ+1QJ3QACXRyYW5zZm9ybXNxAH4ADBFhEmZ0AAV3aWR0aHNxAH4ADDjACop0AAN0b3BzcQB+AAw9Qz7zdAAHZnJvbVN2Z3NxAH4ADKzE9mB0AAJlcXNxAH4ADJ+ZcWp0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAz9Xz/HdAALc3Ryb2tlV2lkdGhzcQB+AAyc5PN6dAACIyNzcQB+AAwcXNhhdAAIZmluYWxpemVzcQB+AAwH37LkdAAFaW5kZXhzcQB+AAylykOodAAOcHJvZHVjdEVsZW1lbnRzcQB+AAyOSBy3dAAIaGFzaENvZGVzcQB+AAzhKtJRdAANdHJhbnNmb3JtQXR0cnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAdzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ARV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AsXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9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aAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgH+eHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgEndAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgFAWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgEyc3EAfgE/dAAFQXJyYXlxAH4CBnVxAH4BPQAAAAFzcQB+AT90AAZTdHJpbmdzcQB+AUNzcQB+AUZ1cQB+AUkAAAADc3EAfgFLcQB+AU5zcQB+AUtxAH4BUHEAfgFScHNxAH4BLAF1cQB+ARAAAAAAcHNxAH4BLAF1cQB+AT0AAAACc3EAfgE/cQB+AUJxAH4CIHNxAH4BP3EAfgFUcQB+AgZwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFNwETLonVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFQvaG9tZS9iZW4vUHJvZ3JhbW1pbmcvU2NhbGFHZW5lcmFsV29ya3NwYWNlL0NpcmNsZXNpbkFwcmlsL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTJbWjWXj2T8dMP+GrLXIxe3qCXPQ==
 external apis:
 0 items
 source infos:
-7 items
+3 items
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/Minify.java -> 
 AAAAAAAAAAA=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/CirclesInApril.scala -> 
-AAAAAAAAAAA=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/DocViewer.scala -> 
-AAAAAAAAAAA=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicasso.scala -> 
+/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/java/RegTest.java -> 
 AAAAAAAAAAA=
 /home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/GeoPicassoRx.scala -> 
-AAAABAAAAQAAAE0AFyAgICAgIGNhc2UgXyA9PiAid2hpdGUiAQAACUoBAAAACwEACyAgICAgICAgICAgAQBcL2hvbWUvYmVuL1Byb2dyYW1taW5nL1NjYWxhR2VuZXJhbFdvcmtzcGFjZS9DaXJjbGVzaW5BcHJpbC9zcmMvbWFpbi9zY2FsYS9HZW9QaWNhc3NvUnguc2NhbGEBAFwvaG9tZS9iZW4vUHJvZ3JhbW1pbmcvU2NhbGFHZW5lcmFsV29ya3NwYWNlL0NpcmNsZXNpbkFwcmlsL3NyYy9tYWluL3NjYWxhL0dlb1BpY2Fzc29SeC5zY2FsYQBoVGhpcyBjYXRjaGVzIGFsbCBUaHJvd2FibGVzLiBJZiB0aGlzIGlzIHJlYWxseSBpbnRlbmRlZCwgdXNlIGBjYXNlIF8gOiBUaHJvd2FibGVgIHRvIGNsZWFyIHRoaXMgd2FybmluZy4BAAABAAAAbQASICAgICAgY2FzZSBfID0+IDFmAQAADx4BAAAACwEACyAgICAgICAgICAgAQBcL2hvbWUvYmVuL1Byb2dyYW1taW5nL1NjYWxhR2VuZXJhbFdvcmtzcGFjZS9DaXJjbGVzaW5BcHJpbC9zcmMvbWFpbi9zY2FsYS9HZW9QaWNhc3NvUnguc2NhbGEBAFwvaG9tZS9iZW4vUHJvZ3JhbW1pbmcvU2NhbGFHZW5lcmFsV29ya3NwYWNlL0NpcmNsZXNpbkFwcmlsL3NyYy9tYWluL3NjYWxhL0dlb1BpY2Fzc29SeC5zY2FsYQBoVGhpcyBjYXRjaGVzIGFsbCBUaHJvd2FibGVzLiBJZiB0aGlzIGlzIHJlYWxseSBpbnRlbmRlZCwgdXNlIGBjYXNlIF8gOiBUaHJvd2FibGVgIHRvIGNsZWFyIHRoaXMgd2FybmluZy4BAAABAAAAcgAUICAgICAgY2FzZSBfID0+IE5vbmUBAAAPpwEAAAALAQALICAgICAgICAgICABAFwvaG9tZS9iZW4vUHJvZ3JhbW1pbmcvU2NhbGFHZW5lcmFsV29ya3NwYWNlL0NpcmNsZXNpbkFwcmlsL3NyYy9tYWluL3NjYWxhL0dlb1BpY2Fzc29SeC5zY2FsYQEAXC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvc3JjL21haW4vc2NhbGEvR2VvUGljYXNzb1J4LnNjYWxhAGhUaGlzIGNhdGNoZXMgYWxsIFRocm93YWJsZXMuIElmIHRoaXMgaXMgcmVhbGx5IGludGVuZGVkLCB1c2UgYGNhc2UgXyA6IFRocm93YWJsZWAgdG8gY2xlYXIgdGhpcyB3YXJuaW5nLgEAAAEAAAB3ABQgICAgICBjYXNlIF8gPT4gTm9uZQEAABAwAQAAAAsBAAsgICAgICAgICAgIAEAXC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvc3JjL21haW4vc2NhbGEvR2VvUGljYXNzb1J4LnNjYWxhAQBcL2hvbWUvYmVuL1Byb2dyYW1taW5nL1NjYWxhR2VuZXJhbFdvcmtzcGFjZS9DaXJjbGVzaW5BcHJpbC9zcmMvbWFpbi9zY2FsYS9HZW9QaWNhc3NvUnguc2NhbGEAaFRoaXMgY2F0Y2hlcyBhbGwgVGhyb3dhYmxlcy4gSWYgdGhpcyBpcyByZWFsbHkgaW50ZW5kZWQsIHVzZSBgY2FzZSBfIDogVGhyb3dhYmxlYCB0byBjbGVhciB0aGlzIHdhcm5pbmcuAQAAAAA=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/Testing.scala -> 
-AAAAAAAAAAA=
-/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/src/main/scala/testingPurposes.java -> 
-AAAAAAAAAAA=
+AAAABAAAAQAAAg8AFyAgICAgIGNhc2UgXyA9PiAid2hpdGUiAQAATH0BAAAACwEACyAgICAgICAgICAgAQBcL2hvbWUvYmVuL1Byb2dyYW1taW5nL1NjYWxhR2VuZXJhbFdvcmtzcGFjZS9DaXJjbGVzaW5BcHJpbC9zcmMvbWFpbi9zY2FsYS9HZW9QaWNhc3NvUnguc2NhbGEBAFwvaG9tZS9iZW4vUHJvZ3JhbW1pbmcvU2NhbGFHZW5lcmFsV29ya3NwYWNlL0NpcmNsZXNpbkFwcmlsL3NyYy9tYWluL3NjYWxhL0dlb1BpY2Fzc29SeC5zY2FsYQBoVGhpcyBjYXRjaGVzIGFsbCBUaHJvd2FibGVzLiBJZiB0aGlzIGlzIHJlYWxseSBpbnRlbmRlZCwgdXNlIGBjYXNlIF8gOiBUaHJvd2FibGVgIHRvIGNsZWFyIHRoaXMgd2FybmluZy4BAAABAAACLwASICAgICAgY2FzZSBfID0+IDFmAQAAUkEBAAAACwEACyAgICAgICAgICAgAQBcL2hvbWUvYmVuL1Byb2dyYW1taW5nL1NjYWxhR2VuZXJhbFdvcmtzcGFjZS9DaXJjbGVzaW5BcHJpbC9zcmMvbWFpbi9zY2FsYS9HZW9QaWNhc3NvUnguc2NhbGEBAFwvaG9tZS9iZW4vUHJvZ3JhbW1pbmcvU2NhbGFHZW5lcmFsV29ya3NwYWNlL0NpcmNsZXNpbkFwcmlsL3NyYy9tYWluL3NjYWxhL0dlb1BpY2Fzc29SeC5zY2FsYQBoVGhpcyBjYXRjaGVzIGFsbCBUaHJvd2FibGVzLiBJZiB0aGlzIGlzIHJlYWxseSBpbnRlbmRlZCwgdXNlIGBjYXNlIF8gOiBUaHJvd2FibGVgIHRvIGNsZWFyIHRoaXMgd2FybmluZy4BAAABAAACNAAUICAgICAgY2FzZSBfID0+IE5vbmUBAABSwwEAAAALAQALICAgICAgICAgICABAFwvaG9tZS9iZW4vUHJvZ3JhbW1pbmcvU2NhbGFHZW5lcmFsV29ya3NwYWNlL0NpcmNsZXNpbkFwcmlsL3NyYy9tYWluL3NjYWxhL0dlb1BpY2Fzc29SeC5zY2FsYQEAXC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvc3JjL21haW4vc2NhbGEvR2VvUGljYXNzb1J4LnNjYWxhAGhUaGlzIGNhdGNoZXMgYWxsIFRocm93YWJsZXMuIElmIHRoaXMgaXMgcmVhbGx5IGludGVuZGVkLCB1c2UgYGNhc2UgXyA6IFRocm93YWJsZWAgdG8gY2xlYXIgdGhpcyB3YXJuaW5nLgEAAAEAAAI5ABQgICAgICBjYXNlIF8gPT4gTm9uZQEAAFNFAQAAAAsBAAsgICAgICAgICAgIAEAXC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvc3JjL21haW4vc2NhbGEvR2VvUGljYXNzb1J4LnNjYWxhAQBcL2hvbWUvYmVuL1Byb2dyYW1taW5nL1NjYWxhR2VuZXJhbFdvcmtzcGFjZS9DaXJjbGVzaW5BcHJpbC9zcmMvbWFpbi9zY2FsYS9HZW9QaWNhc3NvUnguc2NhbGEAaFRoaXMgY2F0Y2hlcyBhbGwgVGhyb3dhYmxlcy4gSWYgdGhpcyBpcyByZWFsbHkgaW50ZW5kZWQsIHVzZSBgY2FzZSBfIDogVGhyb3dhYmxlYCB0byBjbGVhciB0aGlzIHdhcm5pbmcuAQAAAAA=
 compilations:
-64 items
+72 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTapGrcF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTapJg6h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTapNIJ11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
@@ -828,3 +626,11 @@ compilations:
 61 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTbx69Vt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
 62 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTbx7Uk91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
 63 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTbx7vSp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+64 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTb+Cvm91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+65 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTb/q4vh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+66 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTb/wmQR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+67 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTb/y15p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+68 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTb/3yM91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+69 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTcArnE11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+70 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTcA07cR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+71 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTcBEy6J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9ob21lL2Jlbi9Qcm9ncmFtbWluZy9TY2FsYUdlbmVyYWxXb3Jrc3BhY2UvQ2lyY2xlc2luQXByaWwvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

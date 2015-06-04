@@ -12,6 +12,12 @@ import scala.util.matching.Regex
 import org.json._
 
 /**
+ * Credit for original initial idea
+ * http://www.sievesofchaos.com/
+ */
+
+
+/**
  * TODO:
  * placement
  */
@@ -27,7 +33,8 @@ import org.json._
  *
  */
 
-class GeoPicassoRx(contextInfoSerialized: JSONObject) {
+//class GeoPicassoRx(contextInfoSerialized: JSONObject) {
+class GeoPicassoRx(contextInfo: ContextInfo) {
 
   // Our globals
   val docFilename = "render"
@@ -62,65 +69,7 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
   case class PolygonModel(override val index: Int, override val cx: Float, override val cy: Float, override val r: Float, override val scaleFactor: Int, numOfSides: Int, points: List[Tuple2[Float, Float]]) extends ShapeModel(index, cx, cy, r, scaleFactor) {
   }
 
-  case class FillStyle(color: String, opacity: Float)
-  case class StrokeStyle(color: String, opacity: Float, strokeWidth: Float)
 
-  object contextInfo {
-    final val CIRCLE = 0
-    final val TRIANGLE = 3
-    final val SQUARE = 4
-
-    val name = contextInfoSerialized.getString("name")
-    val background = try {
-      contextInfoSerialized.getString("background")
-    } catch {
-      case _ => "white"
-    }
-    val shapesAlongX = contextInfoSerialized.getInt("shapesAlongX")
-    // shape elements
-    private val shapesSerialized = contextInfoSerialized.getJSONArray("shapes")
-    val shapesSequence: List[Int] = (0 until shapesSerialized.length()).toList.map((i: Int) => {
-      val shapeSerialized = shapesSerialized.get(i)
-      shapeSerialized match {
-        case s: String => s match {
-          case "circle" => CIRCLE
-          case "triangle" => TRIANGLE
-          case "square" => SQUARE
-        }
-        case n: java.lang.Integer => n.toInt
-      }
-    })
-    // fills
-    private val fillsSerialized = contextInfoSerialized.getJSONArray("fills")
-    val fillStyles = (0 until fillsSerialized.length()).toList.map((i: Int) => {
-      val fillSerialized = fillsSerialized.getJSONObject(i)
-      new FillStyle(fillSerialized.getString("color"), fillSerialized.getDouble("opacity").toFloat)
-    })
-    // strokes
-    private val strokesSerialized = contextInfoSerialized.getJSONArray("strokes")
-    val strokeStyles = (0 until strokesSerialized.length()).toList.map((i: Int) => {
-      val strokeSerialized = strokesSerialized.getJSONObject(i)
-      new StrokeStyle(strokeSerialized.getString("color"), strokeSerialized.getDouble("opacity").toFloat, strokeSerialized.getDouble("width").toFloat)
-    })
-//    val scale = contextInfoSerialized.getDouble("scale").toFloat
-    val scale = try {
-      contextInfoSerialized.getDouble("scale").toFloat
-    } catch {
-      case _ => 1f
-    }
-    val left: Option[Float] = try {
-      Option(contextInfoSerialized.getDouble("left").toFloat)
-    } catch {
-      case _ => None
-    }
-    val top: Option[Float] = try {
-      Option(contextInfoSerialized.getDouble("top").toFloat)
-    } catch {
-      case _ => None
-    }
-    val width = contextInfoSerialized.getInt("width").toInt
-    val height = contextInfoSerialized.getInt("height").toInt
-  }
 
   object polygonPointsHelper {
 
@@ -214,29 +163,25 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
     val height = contextInfo.height
     val scale = contextInfo.scale
 
-    val leftPercentWise = contextInfo.left
-    val topPercentWise = contextInfo.top
+//    val leftPercentWise = contextInfo.left
+//    val topPercentWise = contextInfo.top
     val desiredFinalRadius = shapeTransformer.rTransform(lastShape.r) * scale
     // left
     val scaledCx = shapeTransformer.cxTransform(lastShape.cx)
     val scaledAndTransformedCx = scaledCx * scale
-    val leftOffset = leftPercentWise match {
+    val leftOffset = contextInfo.left match {
       case None => (scaledAndTransformedCx - scaledCx) * -1
       case _ => {
-          val desiredFinalLeft = (width * leftPercentWise.get)
-          val desiredFinalCx = desiredFinalLeft + desiredFinalRadius
-          ((scaledAndTransformedCx - scaledCx) + (scaledCx - desiredFinalCx)) * -1
+        contextInfo.left.get
       }
     }
     //top
     val scaledCy = shapeTransformer.cyTransform(lastShape.cy)
     val scaledAndTransformedCy = scaledCy * scale
-    val topOffset = topPercentWise match {
+    val topOffset = contextInfo.top match {
       case None => (scaledAndTransformedCy - scaledCy) * -1
       case _ => {
-        val desiredFinalTop = (height * topPercentWise.get)
-        val desiredFinalCy = desiredFinalTop + desiredFinalRadius
-        ((scaledAndTransformedCy - scaledCy) + (scaledCy - desiredFinalCy)) * -1
+        contextInfo.top.get
       }
     }
     val transformVal = s"matrix(${scale},0,0,${scale},${leftOffset},${topOffset})"
@@ -337,7 +282,7 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
 
   def shapeByKey(whichKey: Int, whichShape: ShapeModel): ShapeModel = {
     return whichKey match {
-      case contextInfo.CIRCLE => new CircleModel(whichShape.index, whichShape.cx, whichShape.cy, whichShape.r, whichShape.scaleFactor)
+      case ContextInfo.CIRCLE => new CircleModel(whichShape.index, whichShape.cx, whichShape.cy, whichShape.r, whichShape.scaleFactor)
       case numberOfPolygonSides: Int => new PolygonModel(whichShape.index, whichShape.cx, whichShape.cy, whichShape.r, whichShape.scaleFactor, numberOfPolygonSides, polygonPointsHelper.pointsFor(whichShape, numberOfPolygonSides))
     }
   }
@@ -485,6 +430,7 @@ class GeoPicassoRx(contextInfoSerialized: JSONObject) {
     }
 
     def initFirstAndLastShape() = {
+    // base all of our calculations on a circle at origin
       this.startingShape = new ShapeModel(0,
         0.5f / this.contextInfo.shapesAlongX,
         0.5f,
@@ -519,12 +465,129 @@ class GeoPicassoMetaRx {
           observer.onNext(requestsSerialized.getJSONObject(i))
       }}
   })
-  contextInfoStream.doOnEach((contextInfo: JSONObject) => {
-    new GeoPicassoRx(contextInfo)
+  contextInfoStream.doOnEach((contextInfoSerialized: JSONObject) => {
+    new GeoPicassoRx(ContextInfo.generateDefault(contextInfoSerialized))
 //    Observable.
   })
   .onBackpressureBuffer
   .subscribe()
+}
+
+case class FillStyle(color: String, opacity: Float)
+case class StrokeStyle(color: String, opacity: Float, strokeWidth: Float)
+
+class ContextInfo(val name: String,
+                  val background: String,
+                  val shapesAlongX: Int,
+                  val shapesSequence: List[Int],
+                  val fillStyles: List[FillStyle],
+                  val strokeStyles: List[StrokeStyle],
+                  val scale: Float,
+                  val left: Option[Float],
+                  val top: Option[Float],
+                  val width: Int,
+                  val height: Int
+                   ) {
+}
+
+object ContextInfo {
+  final val CIRCLE = 0
+  final val TRIANGLE = 3
+  final val SQUARE = 4
+
+  object fromSvg {
+    val svgDoc = Jsoup.parse(scala.io.Source.fromFile("minimizedOutputTemplate.svg").mkString, "", Parser.xmlParser())
+    def width: Some[Int] = Some(svgDoc.select("svg").first().attr("width").toInt)
+    def height: Some[Int] = Some(svgDoc.select("svg").first().attr("height").toInt)
+    var scale = None: Option[Float]
+    var top = None: Option[Float]
+    var left = None: Option[Float]
+    val transformAttr: String = svgDoc.select("#gpPlacement").first().attr("transform")
+    transformAttr match {
+      case "" => {
+        scale = Some(1f)
+      }
+      case _ => {
+        val transformRegex = """(matrix)(\()([+-]?\d*\.\d+)(?![-+0-9\.])(,)(0)(,)(0)(,)([+-]?\d*\.\d+)(?![-+0-9\.])(,)([+-]?\d*\.\d+)(?![-+0-9\.])(,)([+-]?\d*\.\d+)(?![-+0-9\.])(\))""".r
+        val regexParsed = transformRegex.findFirstMatchIn(transformAttr).get
+        scale = Some(regexParsed.group(3).toFloat)
+        left = Some(regexParsed.group(11).toFloat)
+        top = Some(regexParsed.group(13).toFloat)
+      }
+    }
+
+  }
+
+  object fromJson {
+    var jsonSource: Some[JSONObject] = Some[JSONObject](null)
+    def name = this.jsonSource.get.getString("name")
+    def background = try {
+      jsonSource.get.getString("background")
+    } catch {
+      case _ => "white"
+    }
+    def shapesAlongX = jsonSource.get.getInt("shapesAlongX")
+    // shape elements
+    private lazy val shapesSerialized = jsonSource.get.getJSONArray("shapes")
+    def shapesSequence: List[Int] = (0 until shapesSerialized.length()).toList.map((i: Int) => {
+      val shapeSerialized = shapesSerialized.get(i)
+      shapeSerialized match {
+        case s: String => s match {
+          case "circle" => CIRCLE
+          case "triangle" => TRIANGLE
+          case "square" => SQUARE
+        }
+        case n: java.lang.Integer => n.toInt
+      }
+    })
+    // fills
+    private lazy val fillsSerialized = jsonSource.get.getJSONArray("fills")
+    def fillStyles = (0 until fillsSerialized.length()).toList.map((i: Int) => {
+      val fillSerialized = fillsSerialized.getJSONObject(i)
+      new FillStyle(fillSerialized.getString("color"), fillSerialized.getDouble("opacity").toFloat)
+    })
+    // strokes
+    private lazy val strokesSerialized = jsonSource.get.getJSONArray("strokes")
+    def strokeStyles = (0 until strokesSerialized.length()).toList.map((i: Int) => {
+      val strokeSerialized = strokesSerialized.getJSONObject(i)
+      new StrokeStyle(strokeSerialized.getString("color"), strokeSerialized.getDouble("opacity").toFloat, strokeSerialized.getDouble("width").toFloat)
+    })
+    //    val scale = contextInfoSerialized.getDouble("scale").toFloat
+    def scale = try {
+      jsonSource.get.getDouble("scale").toFloat
+    } catch {
+      case _ => 1f
+    }
+    def left: Option[Float] = try {
+      Option(jsonSource.get.getDouble("left").toFloat)
+    } catch {
+      case _ => None
+    }
+    def top: Option[Float] = try {
+      Option(jsonSource.get.getDouble("top").toFloat)
+    } catch {
+      case _ => None
+    }
+    def width = jsonSource.get.getInt("width").toInt
+    def height = jsonSource.get.getInt("height").toInt
+  }
+  def generateDefault(withJsonSource: JSONObject): ContextInfo = {
+    fromJson.jsonSource = Some(withJsonSource)
+    return new ContextInfo(
+      fromJson.name,
+      fromJson.background,
+      fromJson.shapesAlongX,
+      fromJson.shapesSequence,
+      fromJson.fillStyles,
+      fromJson.strokeStyles,
+      fromSvg.scale.getOrElse[Float](fromJson.scale),
+      if (fromSvg.left != None) fromSvg.left else fromJson.left,
+      if (fromSvg.top != None) fromSvg.top else fromJson.top,
+      fromSvg.width.getOrElse[Int](fromJson.width),
+      fromSvg.height.getOrElse[Int](fromJson.height))
+//      fromJson.width,
+//      fromJson.height)
+  }
 }
 
 object GeoPicassoRx {

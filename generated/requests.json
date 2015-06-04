@@ -1,38 +1,86 @@
 [
   {
-    "name": "lady",
+    "name": "pentFilled",
     "background": "black",
-    "shapesAlongX": 500,
+    "shapesAlongX": 3500,
     "fills": [
     ],
     "strokes": [
-      {"color": "blue", "opacity": 1, "width": 0.02},
-      {"color": "orange", "opacity": 1, "width": 0.02},
+      {"color": "pink", "opacity": 0.3, "width": 0.01},
+      {"color": "pink", "opacity": 0.7, "width": 0.01},
     ],
     "shapes": [
-      5, 0, "triangle"
+      0
     ],
-    "scale": 2.5,
-//    "scale": 1,
-    "left": -0.5,
-//    "left": 0,
-    "width": 1920,
-    "height": 1080
+    //    "scale": 4.5,
+    "scale": 1,
+    "left": -1,
+    "width": 3920,
+    "height": 2080
   },
-  // {
-  // keepers
-  //   "name": "lady",
-  //   "circlesAlongX": 500,
-  //   "fills": [
-  //     {"color": "#ff00ff", "opacity": 0.5},
-  //     {"color": "#0000ff", "opacity": 0.3},
-  //     {"color": "#ffa500", "opacity": 0.8}
-  //   ],
-  //   "strokes": [
-  //   ],
-  //   "scale": 4,
-  //   "left": -1.4,
-  //   "width": 1920,
-  //   "height": 1080
-  // }
+//  {
+//    "name": "pent",
+//    "background": "black",
+//    "shapesAlongX": 3500,
+//    "fills": [
+//    ],
+//    "strokes": [
+//      {"color": "#FFFF0F", "opacity": 0.05, "width": 0.008},
+//      {"color": "white", "opacity": 0.3,  "width": 0.002},
+//      {"color": "pink", "opacity": 0.3,  "width": 0.002},
+//    ],
+//    "shapes": [
+//      5, 0, "triangle"
+//    ],
+////    "scale": 4.5,
+//    "scale": 1,
+//    "left": -1,
+//    "width": 3920,
+//    "height": 2080
+//  },
+//  {
+//    "name": "ice",
+//    "background": "black",
+//    "shapesAlongX": 3500,
+//    "fills": [
+//    ],
+//    "strokes": [
+//      {"color": "#00FFFF", "opacity": 0.8, "width": 0.008},
+//      {"color": "white", "opacity": 0.3,  "width": 0.002},
+//    ],
+//    "shapes": [
+//      "triangle"
+//    ],
+//    //    "scale": 4.5,
+//    "scale": 1,
+//    "left": -1,
+//    //    "left": 0,
+//    // "width": 1920,
+//    // "height": 1080
+//    "width": 3920,
+//    "height": 2080
+//  },
+//  {
+//    "name": "lady",
+//    "background": "black",
+//    "shapesAlongX": 3500,
+//    "fills": [
+//      {"color": "#ff00ff", "opacity": 0.5},
+//      {"color": "#0000ff", "opacity": 0.3},
+//      {"color": "#ffa500", "opacity": 0.8}
+//    ],
+//    "strokes": [
+//    ],
+//    "shapes": [
+//      "circle"
+//    ],
+//    //    "scale": 4.5,
+//    "scale": 1,
+//    "left": -1,
+//    //    "left": 0,
+//    // "width": 1920,
+//    // "height": 1080
+//    "width": 3920,
+//    "height": 2080
+//  },
 ]
