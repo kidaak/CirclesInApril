@@ -430,7 +430,6 @@ class GeoPicassoRx(contextInfo: ContextInfo) {
     }
 
     def initFirstAndLastShape() = {
-    // base all of our calculations on a circle at origin
       this.startingShape = new ShapeModel(0,
         0.5f / this.contextInfo.shapesAlongX,
         0.5f,
