@@ -28,5 +28,10 @@
     <orderEntry type="library" name="batik-transcoder-1.7" level="project" />
     <orderEntry type="library" name="batik-codec-1.7" level="project" />
     <orderEntry type="library" name="json-20140107" level="project" />
+    <orderEntry type="library" name="commons-image-io-0.4.0" level="project" />
+    <orderEntry type="library" name="commons-imaging-1.0-R1401825" level="project" />
+    <orderEntry type="library" name="batik-util-1.7" level="project" />
+    <orderEntry type="library" name="guava-18.0" level="project" />
+    <orderEntry type="library" name="sanselan-0.97-incubator" level="project" />
   </component>
 </module>

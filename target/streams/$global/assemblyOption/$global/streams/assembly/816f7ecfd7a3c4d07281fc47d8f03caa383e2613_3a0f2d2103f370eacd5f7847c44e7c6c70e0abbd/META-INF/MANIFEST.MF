@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: io.reactivex
+Implementation-Title: rxscala
+Implementation-Version: 0.24.1
+Implementation-Vendor-Id: io.reactivex
+Specification-Vendor: io.reactivex
+Specification-Title: rxscala
+Specification-Version: 0.24.1
+

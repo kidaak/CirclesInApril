@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Export-Package: rx;version="1.0.8";uses:="rx.functions,rx.observables,
+ rx.schedulers",rx.annotations;version="1.0.8",rx.exceptions;version="
+ 1.0.8",rx.functions;version="1.0.8",rx.internal.operators;version="1.
+ 0.8";uses:="rx,rx.exceptions,rx.functions,rx.observables,rx.scheduler
+ s,rx.subjects",rx.internal.schedulers;version="1.0.8";uses:="rx,rx.fu
+ nctions,rx.internal.util,rx.subscriptions",rx.internal.util;version="
+ 1.0.8";uses:="rx,rx.exceptions,rx.functions",rx.internal.util.unsafe;
+ version="1.0.8";uses:="sun.misc",rx.observables;version="1.0.8";uses:
+ ="rx,rx.functions",rx.observers;version="1.0.8";uses:="rx,rx.function
+ s",rx.plugins;version="1.0.8";uses:="rx,rx.functions",rx.schedulers;v
+ ersion="1.0.8";uses:=rx,rx.subjects;version="1.0.8";uses:="rx,rx.inte
+ rnal.operators,rx.schedulers",rx.subscriptions;version="1.0.8";uses:=
+ "rx,rx.functions"
+Implementation-Title: io.reactivex#rxjava;1.0.8
+Built-By: travis
+Change: 4f29be4
+Gradle-Version: 2.2.1
+Tool: Bnd-2.1.0.20130426-122213
+Built-OS: Linux
+Build-Host: testing-worker-linux-docker-0f6c2e20-3235-linux-4.prod.tra
+ vis-ci.org
+Build-Number: LOCAL
+Module-Origin: git://github.com/ReactiveX/RxJava.git
+Bundle-SymbolicName: io.reactivex.rxjava
+Build-Id: LOCAL
+X-Compile-Target-JDK: 1.6
+Implementation-Version: 1.0.8
+Module-Owner: benjchristensen@netflix.com
+Bundle-Name: rxjava
+Created-By: 1.7.0_76-b13 (Oracle Corporation)
+Build-Job: LOCAL
+Build-Date: 2015-03-07_00:16:53
+X-Compile-Source-JDK: 1.6
+Build-Java-Version: 1.7.0_76
+Bundle-Vendor: ReactiveX
+Built-Status: release
+Bundle-Version: 1.0.8
+Bnd-LastModified: 1425687386000
+Bundle-ManifestVersion: 2
+Bundle-DocURL: https://github.com/ReactiveX/RxJava
+Import-Package: sun.misc
+Module-Email: benjchristensen@netflix.com
+Module-Source: 
+

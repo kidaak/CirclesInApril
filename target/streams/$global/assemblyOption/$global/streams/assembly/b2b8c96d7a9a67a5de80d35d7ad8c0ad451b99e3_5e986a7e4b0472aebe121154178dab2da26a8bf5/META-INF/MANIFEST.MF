@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.2
+Created-By: 1.3.1_16-b06 (Sun Microsystems Inc.)
+Extension-Name: commons-io
+Specification-Title: Commons IO
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 1.1
+Implementation-Title: org.apache.commons.io
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 1.1
+

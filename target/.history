@@ -18,3 +18,9 @@ sbt
 run
 console
 run
+package
+assembly
+compile
+assembly
+runMain gmail.bendavisnc.GeoPicasso.testing.GeoTest
+assembly

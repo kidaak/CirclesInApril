@@ -26,3 +26,22 @@ val buildSettings = Defaults.defaultSettings ++ Seq(
   javaOptions += "-Xmx32G"
   //…
 )
+
+import sbtassembly.PathList
+
+assemblyJarName in assembly := "GeoPicassoRx.jar"
+
+mainClass in assembly := Some("gmail.bendavisnc.GeoPicasso.GeoPicassoRx")
+
+assemblyMergeStrategy in assembly := {
+  case PathList("javax", "servlet", xs @ _*)         => MergeStrategy.first
+  case PathList(ps @ _*) if ps.last endsWith ".html" => MergeStrategy.first
+  case "application.conf"                            => MergeStrategy.concat
+  case "unwanted.txt"                                => MergeStrategy.discard
+//  case x =>
+//    val oldStrategy = (assemblyMergeStrategy in assembly).value
+//    oldStrategy(x)
+  case PathList("META-INF", "MANIFEST.MF") => MergeStrategy.discard
+  case _ => MergeStrategy.first
+}
+

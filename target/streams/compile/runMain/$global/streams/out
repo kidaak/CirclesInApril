@@ -1,8 +1,10 @@
-[0m[[0minfo[0m] [0mRunning GeoPicassoRx [0m
+[0m[[0minfo[0m] [0mRunning gmail.bendavisnc.GeoPicasso.testing.GeoTest [0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/lib/guava-18.0.jar[0m
 [0m[[0mdebug[0m] [0m	/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/lib/rxscala_2.11-0.24.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/ben/Programming/ScalaGeneralWorkspace/CirclesinApril/lib/sanselan-0.97-incubator.jar[0m
 [0m[[0mdebug[0m] [0m	/home/ben/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar[0m
 [0m[[0mdebug[0m] [0m	/home/ben/.ivy2/cache/org.jsoup/jsoup/jars/jsoup-1.7.2.jar[0m
 [0m[[0mdebug[0m] [0m	/home/ben/.ivy2/cache/io.reactivex/rxscala_2.11/jars/rxscala_2.11-0.24.1.jar[0m
@@ -34,3 +36,16 @@
 [0m[[0mdebug[0m] [0m	/home/ben/.ivy2/cache/org.apache.xmlgraphics/batik-codec/jars/batik-codec-1.7.jar[0m
 [0m[[0mdebug[0m] [0m	/home/ben/.ivy2/cache/org.json/json/jars/json-20140107.jar[0m
 [0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mInterrupting thread RxComputationThreadPool-1[0m
+[0m[[0mdebug[0m] [0m	Interrupted RxComputationThreadPool-1[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[Java2D Disposer,10,system][0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[XToolkt-Shutdown-Thread,5,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread Batik CleanerThread[0m
+[0m[[0mdebug[0m] [0m	Interrupted Batik CleanerThread[0m
+[0m[[0mdebug[0m] [0mNot interrupting system thread Thread[AWT-XAWT,6,system][0m
+[0m[[0mdebug[0m] [0mInterrupting thread RxComputationThreadPool-2[0m
+[0m[[0mdebug[0m] [0m	Interrupted RxComputationThreadPool-2[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

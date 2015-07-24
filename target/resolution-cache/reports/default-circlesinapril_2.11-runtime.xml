@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150525134248"/>
+		date="20150715114249"/>
 	<dependencies>
 		<module organisation="org.json" name="json">
 			<revision name="20140107" status="release" pubdate="20140107133602" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/douglascrockford/JSON-java" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="29">
